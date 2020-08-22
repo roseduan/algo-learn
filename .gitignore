@@ -1,4 +1,7 @@
+# idea
+
 .idea
 .idea/vcs.xml
 out/
 *.iml
+go.mod
