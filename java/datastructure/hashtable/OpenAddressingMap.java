@@ -1,7 +1,6 @@
 package datastructure.hashtable;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 /**
  * @author roseduan[roseduan520@gmail.com]

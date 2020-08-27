@@ -1,6 +1,8 @@
 package algorithm.greedyAlgo;
 
-import java.util.*;
+import java.util.Collections;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 /**
  * @author roseduan
