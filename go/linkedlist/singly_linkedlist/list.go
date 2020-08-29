@@ -22,14 +22,11 @@ type LinkedList struct {
 }
 
 func New() *LinkedList {
-	lis := LinkedList{}
-	lis.head = nil
-	lis.length = 0
-	return &lis
+	return &LinkedList{nil, 0}
 }
 
 //增加数据至链表末尾
-func (lis *LinkedList) pushBack(val interface{}) *ListNode {
+func (lis *LinkedList) PushBack(val interface{}) *ListNode {
 	p := lis.head
 
 	node := newNode(val)
@@ -47,7 +44,7 @@ func (lis *LinkedList) pushBack(val interface{}) *ListNode {
 }
 
 //在某个节点之前插入
-func (lis *LinkedList) pushBefore(p *ListNode, val interface{}) *ListNode {
+func (lis *LinkedList) PushBefore(p *ListNode, val interface{}) *ListNode {
 	if p == nil || lis.head == nil {
 		return nil
 	}
@@ -70,7 +67,7 @@ func (lis *LinkedList) pushBefore(p *ListNode, val interface{}) *ListNode {
 }
 
 //在某个节点之后插入
-func (lis *LinkedList) pushAfter(p *ListNode, val interface{}) *ListNode {
+func (lis *LinkedList) PushAfter(p *ListNode, val interface{}) *ListNode {
 	if p == nil {
 		return nil
 	}
@@ -82,8 +79,44 @@ func (lis *LinkedList) pushAfter(p *ListNode, val interface{}) *ListNode {
 	return node
 }
 
+//根据值查找链表节点
+func (lis *LinkedList) Find(val interface{}) *ListNode {
+	p := lis.head
+	for p != nil && p.val != val {
+		p = p.next
+	}
+
+	return p
+}
+
+//删除节点
+func (lis *LinkedList) Delete(p *ListNode) {
+	if p == nil {
+		return
+	}
+
+	if p == lis.head {
+		lis.head = lis.head.next
+		lis.length--
+	} else {
+		prev := lis.head
+		for prev != nil && prev.next != p {
+			prev = prev.next
+		}
+
+		if prev != nil {
+			prev.next = p.next
+		}
+	}
+}
+
+//删除值为目标的节点
+func (lis *LinkedList) DeleteVal(val interface{}) {
+	lis.Delete(lis.Find(val))
+}
+
 //打印链表中所有数据
-func (lis *LinkedList) printData() {
+func (lis *LinkedList) PrintData() {
 	for p := lis.head; p != nil; p = p.next {
 		fmt.Print(p.val, " ")
 	}

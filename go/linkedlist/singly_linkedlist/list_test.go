@@ -5,14 +5,20 @@ import "testing"
 func TestList(t *testing.T) {
 
 	lis := New()
-	lis.pushBack(1)
-	lis.pushBack(3)
-	e4 := lis.pushBack(4)
-	lis.pushBack(6)
+	lis.PushBack(1)
+	lis.PushBack(3)
+	e4 := lis.PushBack(4)
+	lis.PushBack(6)
 
-	lis.pushBefore(e4, 10)
+	lis.PushBefore(e4, 10)
 
-	lis.pushAfter(e4, 20)
+	lis.PushAfter(e4, 20)
+	lis.PushBack(10)
 
-	lis.printData()
+	lis.PrintData()
+
+	//删除
+	lis.DeleteVal(10)
+	t.Log(lis.length)
+	lis.PrintData()
 }
