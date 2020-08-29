@@ -6,4 +6,13 @@ func selectionSort(data []int) {
 		return
 	}
 
+	for i := 0; i < len(data); i++ {
+		min := i
+		for j := i + 1; j < len(data); j++ {
+			if data[j] < data[min] {
+				min = j
+			}
+		}
+		data[i], data[min] = data[min], data[i]
+	}
 }
