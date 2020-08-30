@@ -1,6 +1,7 @@
+import random
+from typing import List
 
 # 冒泡排序
-from typing import List
 
 
 def bubbleSort1(data: List[int]):
@@ -37,4 +38,8 @@ if __name__ == '__main__':
 
     num = [3, 1]
     bubbleSort1(num)
+    print(num)
+
+    num = [int(random.random() * 200) for _ in range(100)]
+    bubbleSort2(num)
     print(num)
