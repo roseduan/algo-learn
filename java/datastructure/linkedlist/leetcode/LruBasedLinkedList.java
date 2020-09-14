@@ -1,4 +1,4 @@
-package datastructure.linkedlist;
+package datastructure.linkedlist.leetcode;
 
 /**
  * @author roseduan[roseduan520@gmail.com]
