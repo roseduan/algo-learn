@@ -24,8 +24,3 @@ func mergeTwoLists1(l1 *ListNode, l2 *ListNode) *ListNode {
 	}
 	return node.Next
 }
-
-//递归
-func mergeTwoLists2(l1 *ListNode, l2 *ListNode) *ListNode {
-	return nil
-}
