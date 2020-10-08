@@ -16,25 +16,21 @@ public class FindLastSmallerThan {
     }
 
     private static int find(int[] data, int k){
-        int low = 0;
-        int high = data.length - 1;
+        int low = 0, high = data.length - 1;
 
         while (low <= high){
             int mid = low + ((high - low) >> 1);
 
             if (data[mid] > k){
                 high = mid - 1;
-            }
-            else {
+            } else {
                 if (mid == data.length - 1 || data[mid + 1] > k){
                     return mid;
-                }
-                else {
+                } else {
                     low = mid + 1;
                 }
             }
         }
         return -1;
     }
-
 }

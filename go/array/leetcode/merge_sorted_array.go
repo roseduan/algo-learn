@@ -1,59 +1,55 @@
 package main
 
 import (
-	"fmt"
-	"sync/atomic"
+	"sort"
 )
 
 //合并两个有序数组
 
-//新建一个临时数组
-
-func main() {
-	var a int32 = 0
-	chn := make(chan bool, 3)
-	for i := 0; i < 3; i++ {
-		go func(i int) {
-			fmt.Println("执行的顺序 : ", i+1)
-			defer func() {
-				chn <- true
-			}()
-
-			for i := 0; i < 5000; i++ {
-				atomic.AddInt32(&a, 1)
-				//a++
-			}
-		}(i)
-	}
-
-	<-chn
-	<-chn
-	<-chn
-	fmt.Println(a)
+//第一种解法，直接将nums2放到nums1的后面，然后再进行一次排序
+func merge1(nums1 []int, m int, nums2 []int, n int) {
+	copy(nums1[m:], nums2[:])
+	sort.Ints(nums1)
 }
 
-func merge1(nums1 []int, m int, nums2 []int, n int) {
-	var temp []int
-
-	for i := 0; i < 3; i++ {
-		temp = append(temp, nums1[i])
-	}
-
+//第二种解法，新开辟一个数组，然后使用双指针
+func merge2(nums1 []int, m int, nums2 []int, n int) {
+	temp := make([]int, len(nums1))
 	i, j, k := 0, 0, 0
 	for i < m && j < n {
-		if temp[i] < nums2[j] {
-			nums1[k] = temp[i]
+		if nums1[i] < nums2[j] {
+			temp[k] = nums1[i]
 			i++
 		} else {
-			nums1[k] = nums2[j]
+			temp[k] = nums2[j]
 			j++
 		}
 		k++
 	}
 
-	if i != m {
-		copy(nums1[k:], temp[:i])
-	} else {
-		copy(nums1[k:], nums2[:j])
+	if i < m {
+		copy(temp[k:], nums1[i:])
+	}
+	if j < n {
+		copy(temp[k:], nums2[j:])
+	}
+	copy(nums1, temp)
+}
+
+//第三种解法，倒序比较，双指针
+func merge3(nums1 []int, m int, nums2 []int, n int) {
+	i, j, k := m-1, n-1, len(nums1)-1
+	for i >= 0 && j >= 0 {
+		if nums1[i] < nums2[j] {
+			nums1[k] = nums2[j]
+			j--
+		} else {
+			nums1[k] = nums1[i]
+			i--
+		}
+		k--
+	}
+	if j >= 0 {
+		copy(nums1[:k+1], nums2[:j+1])
 	}
 }

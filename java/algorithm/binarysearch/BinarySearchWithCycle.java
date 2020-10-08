@@ -8,23 +8,18 @@ package algorithm.binarysearch;
 public class BinarySearchWithCycle {
 
     public static int binarySearch(int[] data, int key){
-        int low = 0;
-        int high = data.length - 1;
-
+        int low = 0, high = data.length - 1;
         while (low <= high){
             int mid = low + (high - low) / 2;
 
             if (data[mid] > key){
                 high = mid - 1;
-            }
-            else if (data[mid] < key){
+            } else if (data[mid] < key){
                 low = mid + 1;
-            }
-            else {
+            } else {
                 return mid;
             }
         }
         return -1;
     }
-
 }
