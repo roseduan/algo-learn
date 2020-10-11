@@ -28,8 +28,7 @@ public class ContainerWithMostWater {
      * 运行结果：通过，速度击败 96%
      */
     public int maxArea2(int[] height) {
-        int i = 0;
-        int j = height.length - 1;
+        int i = 0, j = height.length - 1;
         int max = 0;
 
         while (i < j){

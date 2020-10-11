@@ -1,5 +1,8 @@
 package datastructure.linkedlist.leetcode;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author roseduan[roseduan520@gmail.com]
  * @time 2019/12/6 0:17
@@ -7,7 +10,10 @@ package datastructure.linkedlist.leetcode;
  */
 public class CircleInLinkedList {
 
-    public boolean checkCircle(ListNode node) {
+    /**
+     * 快慢指针法
+     */
+    public boolean checkCircle1(ListNode node) {
         if(node == null) {
             return false;
         }
@@ -20,6 +26,22 @@ public class CircleInLinkedList {
             if(fast == slow) {
                 return true;
             }
+        }
+        return false;
+    }
+
+    /**
+     * 使用一个哈希表
+     */
+    public boolean checkCircle2(ListNode node) {
+        Set<ListNode> set = new HashSet<>();
+        ListNode p = node;
+        while (p != null) {
+            if (set.contains(p)) {
+                return true;
+            }
+            set.add(p);
+            p = p.next;
         }
         return false;
     }

@@ -48,8 +48,7 @@ public class ClimbStairs {
             return n;
         }
 
-        int prev = 1;
-        int next = 2;
+        int prev = 1, next = 2;
         for (int i = 2; i < n; i++) {
             int temp = prev + next;
             prev = next;

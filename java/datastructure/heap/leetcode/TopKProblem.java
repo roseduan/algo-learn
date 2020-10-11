@@ -1,4 +1,4 @@
-package datastructure.heap;
+package datastructure.heap.leetcode;
 
 import java.util.Arrays;
 import java.util.PriorityQueue;
