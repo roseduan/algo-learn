@@ -25,10 +25,3 @@ class Solution:
                 nums[i + 1] = nums[j]
                 i, j = i + 1, j + 1
         return i + 1
-
-
-if __name__ == '__main__':
-    data1 = [9, 9]
-    data2 = [1, 3, 2]
-    data2[:] = data1[:]
-    print(data2)
