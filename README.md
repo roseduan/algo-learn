@@ -1,10 +1,26 @@
 # algo-learn
-学习数据结构与算法的代码示例，目前提供 Java、Python、Go 三种语言支持。
+学习数据结构与算法的代码示例，目前提供 Java、Python、Go 三种语言支持。编程是一门实践的手艺，多多练习，多多思考，把这里列举的所有算法，数据结构，以及对应的常见 leetcode 习题都自己手敲几遍，增强自己的编码基本功，写出高性能和高质量的代码！
 
 ## 数组
 
-* 实现一个支持动态扩容的数组
+* 实现一个支持动态扩容的数组 [Java、Python、Go]
+
 * 常见 Leetcode 练习题
+
+  | 题号 |                           题目名称                           |                           解题代码                           | 难度 |
+  | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :--: |
+  |  1   |    [两数之和](https://leetcode-cn.com/problems/two-sum/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/TwoSum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/two_sum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/two_sum.go) | 简单 |
+  | 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MoveZero.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/move_zero.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/move_zero.go) | 简单 |
+  |  66  |      [加一](https://leetcode-cn.com/problems/plus-one/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/PlusOne.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/plus_one.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/plus_one.go) | 简单 |
+  | 121  | [买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/best_time_buy_sell_stock.go) | 简单 |
+  |  88  | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MergeSortedArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/merge_sorted_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/merge_sorted_array.go) | 简单 |
+  |      |                                                              |                                                              |      |
+  |      |                                                              |                                                              |      |
+  |      |                                                              |                                                              |      |
+  |      |                                                              |                                                              |      |
+
+  
+
   * 两数之和
   * 买卖股票的最佳时机I
   * 爬楼梯
@@ -33,6 +49,8 @@
   * 倒序打印链表
   * 删除链表倒数第 K 个节点
   * 链表的中间节点
+  * 奇偶链表
+  * 两数相加
 
 ## 栈
 
