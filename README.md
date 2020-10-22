@@ -13,20 +13,27 @@
 | 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MoveZero.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/move_zero.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/move_zero.go) |        简单         |
 |  66  |      [加一](https://leetcode-cn.com/problems/plus-one/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/PlusOne.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/plus_one.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/plus_one.go) |        简单         |
 | 121  | [买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/best_time_buy_sell_stock.go) |        简单         |
+| 122  | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |                       Java、Python、Go                       |        简单         |
 |  88  | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MergeSortedArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/merge_sorted_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/merge_sorted_array.go) |        简单         |
+|  26  | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/RemoveDuplicates.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/remove_deulicates.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/remove_duplicate.go) |        简单         |
 |  15  |      [三数之和](https://leetcode-cn.com/problems/3sum/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ThreeSum.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/three_sum.go) |        中等         |
-|  #   |        ##############################################        |                     ###################                      | ################### |
+| 189  |  [旋转数组](https://leetcode-cn.com/problems/rotate-array/)  | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/RotateArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/rotate_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/rotata_array.go) |        中等         |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|      |                                                              |                                                              |                     |
+|  #   |            ######################################            |                     ###################                      | ################### |
 
 * 两数之和
 * 买卖股票的最佳时机I
 * 爬楼梯
 * 装水最多的容器
-* 合并两个有序数组
-* 移动零
-* 加一
 * 删除排序数组中的重复数据
-* 旋转数组
-* 三数之和
+
+  
 
 ## 链表
 
