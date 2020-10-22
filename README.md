@@ -14,6 +14,8 @@
 |  66  |      [加一](https://leetcode-cn.com/problems/plus-one/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/PlusOne.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/plus_one.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/plus_one.go) | 简单 |
 | 121  | [买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/best_time_buy_sell_stock.go) | 简单 |
 |  88  | [合并两个有序数组](https://leetcode-cn.com/problems/merge-sorted-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MergeSortedArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/merge_sorted_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/merge_sorted_array.go) | 简单 |
+|  15  |      [三数之和](https://leetcode-cn.com/problems/3sum/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ThreeSum.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/three_sum.go) | 中等 |
+|  #   | 占                                                                        位                                         符 |                                                              |      |
 
 * 两数之和
 * 买卖股票的最佳时机I
