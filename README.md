@@ -11,6 +11,7 @@
 | :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :-----------------: |
 |  1   |    [两数之和](https://leetcode-cn.com/problems/two-sum/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/TwoSum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/two_sum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/two_sum.go) |        简单         |
 | 283  |   [移动零](https://leetcode-cn.com/problems/move-zeroes/)    | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/MoveZero.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/move_zero.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/move_zero.go) |        简单         |
+| 217  | [存在重复元素](https://leetcode-cn.com/problems/contains-duplicate/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/contains_duplicate.py)、Go |        简单         |
 |  66  |      [加一](https://leetcode-cn.com/problems/plus-one/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/PlusOne.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/plus_one.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/plus_one.go) |        简单         |
 | 121  | [买卖股票的最佳时机 I](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/best_time_buy_sell_stock.go) |        简单         |
 | 122  | [买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/) |                       Java、Python、Go                       |        简单         |
@@ -18,22 +19,14 @@
 |  26  | [删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/RemoveDuplicates.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/remove_deulicates.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/remove_duplicate.go) |        简单         |
 |  15  |      [三数之和](https://leetcode-cn.com/problems/3sum/)      | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ThreeSum.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/three_sum.go) |        中等         |
 | 189  |  [旋转数组](https://leetcode-cn.com/problems/rotate-array/)  | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/RotateArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/rotate_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/rotata_array.go) |        中等         |
+|  11  | [装水最多的容器](https://leetcode-cn.com/problems/container-with-most-water/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ContainerWithMostWater.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/container_with_most_water.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/container_with_most_water.go) |        中等         |
+|  48  |  [旋转图像](https://leetcode-cn.com/problems/rotate-image/)  | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/rotate_image.py)、Go |        中等         |
 |      |                                                              |                                                              |                     |
 |      |                                                              |                                                              |                     |
 |      |                                                              |                                                              |                     |
 |      |                                                              |                                                              |                     |
 |      |                                                              |                                                              |                     |
-|      |                                                              |                                                              |                     |
-|      |                                                              |                                                              |                     |
-|  #   |            ######################################            |                     ###################                      | ################### |
-
-* 两数之和
-* 买卖股票的最佳时机I
-* 爬楼梯
-* 装水最多的容器
-* 删除排序数组中的重复数据
-
-  
+|  #   |                ##############################                |                     ###################                      | ################### |
 
 ## 链表
 
@@ -54,6 +47,10 @@
   * 链表的中间节点
   * 奇偶链表
   * 两数相加
+
+## 字符串
+
+
 
 ## 栈
 
@@ -103,7 +100,35 @@
   * 最小的k的个数
   * 前k个高频的元素
 
-## 递归
+
+
+## 排序和搜索
+
+### 1. 排序
+
+### 2. 二分查找
+
+### 3. 搜索
+
+## 算法思想
+
+### 1. 贪心
+
+
+
+### 2. 回溯
+
+
+
+### 3. 分治
+
+
+
+### 4. 动态规划
+
+## 其他
+
+### 1. 递归
 
 * 常见 Leetcode 练习题
   * 二叉搜索树的最近公共祖先
@@ -115,4 +140,8 @@
   * 全排列
   * 全排列II
   * 验证二叉搜索树
+
+### 2. 数学
+
+### 3. 设计
 
