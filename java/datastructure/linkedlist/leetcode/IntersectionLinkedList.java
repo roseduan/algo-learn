@@ -3,6 +3,10 @@ package datastructure.linkedlist.leetcode;
 import java.util.HashSet;
 import java.util.Set;
 
+/**
+ * @author roseduan
+ * 链表的交点
+ */
 public class IntersectionLinkedList {
 
     public ListNode getIntersectionNode1(ListNode headA, ListNode headB) {

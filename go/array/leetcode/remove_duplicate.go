@@ -8,9 +8,8 @@ func removeDuplicates(nums []int) int {
 		if nums[i] == nums[j] {
 			j++
 		} else {
-			i++
-			nums[i] = nums[j]
-			j++
+			nums[i+1] = nums[j]
+			i, j = i+1, j+1
 		}
 	}
 	return i + 1

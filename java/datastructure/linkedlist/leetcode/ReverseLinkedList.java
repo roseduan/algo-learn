@@ -7,17 +7,35 @@ package datastructure.linkedlist.leetcode;
  */
 public class ReverseLinkedList {
 
-    public ListNode reverse(ListNode node) {
-        ListNode previous = null;
-        ListNode current = node;
-
-        while(current != null) {
-            ListNode next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
+    /**
+     * 迭代
+     */
+    public ListNode reverseList1(ListNode head) {
+        ListNode prev = null, cur = head;
+        while(cur != null) {
+            ListNode next = cur.next;
+            cur.next = prev;
+            prev = cur;
+            cur = next;
         }
-        return previous;
+        return prev;
+    }
+
+    /**
+     * 递归
+     */
+    public ListNode reverseList2(ListNode head) {
+        return helper(null, head);
+    }
+
+    private ListNode helper(ListNode prev, ListNode cur) {
+        if (cur == null) {
+            return prev;
+        }
+
+        ListNode next = cur.next;
+        cur.next = prev;
+        return helper(cur, next);
     }
 
     private static class ListNode{
@@ -29,5 +47,4 @@ public class ReverseLinkedList {
             this.next = null;
         }
     }
-
 }
