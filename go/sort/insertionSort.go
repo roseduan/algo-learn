@@ -7,8 +7,7 @@ func insertionSort(data []int) {
 	}
 
 	for i := 0; i < len(data)-1; i++ {
-		j := i + 1
-		k := data[j]
+		j, k := i+1, data[i+1]
 		for ; j > 0 && data[j-1] > k; j-- {
 			data[j] = data[j-1]
 		}

@@ -29,17 +29,3 @@ def bubbleSort2(data: List[int]):
                 swap = True
         if not swap:
             break
-
-
-if __name__ == '__main__':
-    num = [1]
-    bubbleSort1(num)
-    print(num)
-
-    num = [3, 1]
-    bubbleSort1(num)
-    print(num)
-
-    num = [int(random.random() * 200) for _ in range(100)]
-    bubbleSort2(num)
-    print(num)

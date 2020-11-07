@@ -25,7 +25,3 @@ class Solution:
             self.helper(nums, visited, data, res)
             data.pop()
             visited[i] = False
-
-
-if __name__ == "__main__":
-    print(1)

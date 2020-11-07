@@ -11,7 +11,6 @@ type MinStack struct {
 	min   []int
 }
 
-/** initialize your data structure here. */
 func Constructor() MinStack {
 	return MinStack{[]int{}, []int{math.MaxInt64}}
 }

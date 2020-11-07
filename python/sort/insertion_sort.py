@@ -15,17 +15,3 @@ def insertionSort(data: List[int]):
             data[j] = data[j - 1]
             j -= 1
         data[j] = k
-
-
-if __name__ == '__main__':
-    num = [5, 3]
-    insertionSort(num)
-    print(num)
-
-    num = [1, 1, 1, 1, 1]
-    insertionSort(num)
-    print(num)
-
-    num = [int(random.random() * 200) for _ in range(100)]
-    insertionSort(num)
-    print(num)

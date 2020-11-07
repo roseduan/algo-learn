@@ -39,3 +39,23 @@ func isValid2(s string) bool {
 	}
 	return stack.Len() == 0
 }
+
+// 另一种写法
+func isValid3(s string) bool {
+	var stack []int
+	for _, v := range s {
+		if v == '(' {
+			stack = append(stack, ')')
+		} else if v == '[' {
+			stack = append(stack, ']')
+		} else if v == '{' {
+			stack = append(stack, '}')
+		} else {
+			if len(stack) == 0 || stack[len(stack)-1] != int(v) {
+				return false
+			}
+			stack = stack[:len(stack)-1]
+		}
+	}
+	return len(stack) == 0
+}
