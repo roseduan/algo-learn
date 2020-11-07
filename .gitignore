@@ -7,3 +7,4 @@ out/
 ./go.mod
 test/
 venv/
+.vscode/
