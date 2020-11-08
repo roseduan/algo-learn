@@ -50,7 +50,7 @@
 |   328    | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/OddEvenLinkedList.java)、Python、Go |   中等   |
 |    2     | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/AddTwoNumbers.java)、Python、Go |   中等   |
 |    25    | [k 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |                       Java、Python、Go                       |   困难   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ## 栈
 
@@ -64,7 +64,7 @@
 |   155    |    [最小栈](https://leetcode-cn.com/problems/min-stack/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MinStack.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/min_stack.go) |   简单   |
 |   232    | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MyQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/queue_using_stack.go) |   简单   |
 |    84    | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/largest_rectangle_in_histogram.go) |   困难   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 队列
 
@@ -78,7 +78,7 @@
 |   641    | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/MyCircularDeque.java)、Python、Go |   中等   |
 |   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) |                       Java、Python、Go                       |   中等   |
 |   239    | [滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/SlidingWindowMaximum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/sliding_window_maximum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/sliding_window_maximum.go) |   困难   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                        ——————————————                        |                        ——————————————                        | ———————— |
 
 ## 字符串
 
@@ -103,7 +103,7 @@
 |    8     | [字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) |                       Java、Python、Go                       |   中等   |
 |   438    | [ 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) |                       Java、Python、Go                       |   中等   |
 |    38    | [外观数列](https://leetcode-cn.com/problems/count-and-say/)  |                       Java、Python、Go                       |   中等   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ## 哈希表
 
@@ -119,7 +119,7 @@
 |    49    | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/group_anagram.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/group_anagram.go) |   中等   |
 |   438    | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/find_all_anagrams.py)、Go |   中等   |
 |   146    | [实现 lru 缓存](https://leetcode-cn.com/problems/lru-cache/#/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/lru_cache.go) |   中等   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 布隆过滤器
 
@@ -136,7 +136,7 @@
 |   547    |  [朋友圈](https://leetcode-cn.com/problems/friend-circles/)  | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/disjointset/leetcode/FriendCircles.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/disjointset/leetcode/friend_circles.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/disjointset/leetcode/friend_circles.go) |   中等   |
 |   200    | [岛屿数量](https://leetcode-cn.com/problems/number-of-islands/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/disjointset/leetcode/number_of_islands.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/disjointset/leetcode/number_of_isalands.go) |   中等   |
 |   120    | [被围绕的区域](https://leetcode-cn.com/problems/surrounded-regions/) |                       Java、Python、Go                       |   中等   |
-| ———————— |                       ————————————————                       |                       ————————————————                       | ———————— |
+| ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 二叉堆
 
@@ -159,36 +159,36 @@
 * 实现一个二叉树
 * 常见 leetcode 练习题：
 
-|   题号   |                           题目名称                           |     解题代码     |   难度   |
-| :------: | :----------------------------------------------------------: | :--------------: | :------: |
-|   144    | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Java、Python、Go |   中等   |
-|    94    | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | Java、Python、Go |   中等   |
-|   145    | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Java、Python、Go |   中等   |
-|   102    | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | Java、Python、Go |   中等   |
-|   107    | [二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) | Java、Python、Go |   简单   |
-|   637    | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) | Java、Python、Go |   简单   |
-|   103    | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | Java、Python、Go |   中等   |
-|   104    | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Java、Python、Go |   简单   |
-|   111    | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Java、Python、Go |   简单   |
-|          |                        验证二叉搜索树                        | Java、Python、Go |          |
-|          |                          对称二叉树                          | Java、Python、Go |          |
-|          |                       N叉树的前序遍历                        | Java、Python、Go |          |
-|          |                       N叉树的后序遍历                        | Java、Python、Go |          |
-|          |                       N叉树的层次遍历                        | Java、Python、Go |          |
-|          |                   有序数组转换为二叉搜索树                   | Java、Python、Go |   简单   |
-|   129    | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) | Java、Python、Go |   中等   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+|   题号   |                           题目名称                           |                           解题代码                           |   难度   |
+| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
+|   144    | [二叉树的前序遍历](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/binary_tree_preorder_traversal.go) |   中等   |
+|    94    | [二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/BinaryTreeInorderTraversal.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/binary_tree_inorder_traversal.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/binary_tree_inorder_traversal.go) |   中等   |
+|   145    | [二叉树的后序遍历](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/binary_tree_postorder_traversal.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/binary_tree_postorder_traversal.go) |   中等   |
+|   102    | [二叉树的层次遍历](https://leetcode-cn.com/problems/binary-tree-level-order-traversal/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/binary_tree_level_order_traversal.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/binary_tree_level_order_traversal.go) |   中等   |
+|   107    | [二叉树的层次遍历 II](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/) |                       Java、Python、Go                       |   简单   |
+|   637    | [二叉树的层平均值](https://leetcode-cn.com/problems/average-of-levels-in-binary-tree/) |                       Java、Python、Go                       |   简单   |
+|   103    | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/ZigZagLevelOrderTraversal.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/binary_tree_zigzag_level_order_traversal.py)、Go |   中等   |
+|   104    | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/maximum_depth_binary_tree.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/maximum_depth_binary_tree.go) |   简单   |
+|   111    | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/minimum_depth_binary_tree.py)、Go |   简单   |
+|          |                        验证二叉搜索树                        | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/valid_bst.py)、Go |          |
+|          |                          对称二叉树                          | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/symmetric_tree.py)、Go |          |
+|          |                       N叉树的前序遍历                        |                       Java、Python、Go                       |          |
+|          |                       N叉树的后序遍历                        |                       Java、Python、Go                       |          |
+|          |                       N叉树的层次遍历                        |                       Java、Python、Go                       |          |
+|          |                   有序数组转换为二叉搜索树                   | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/sorted_array_to_bst.go) |   简单   |
+|   129    | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |                       Java、Python、Go                       |   中等   |
+| ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ### 2. 字典树
 
 * 实现一个字典树
 * 常见 leetcode 练习题
 
-|   题号   |                           题目名称                           |     解题代码     |   难度   |
-| :------: | :----------------------------------------------------------: | :--------------: | :------: |
-|   208    | [实现一个 Trie （字典树）](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | Java、Python、Go |   中等   |
-|   212    |                          单词搜索II                          | Java、Python、Go |   困难   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+|   题号   |                           题目名称                           |                           解题代码                           |   难度   |
+| :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
+|   208    | [实现一个 Trie （字典树）](https://leetcode-cn.com/problems/implement-trie-prefix-tree/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/Trie.java)、Python、Go |   中等   |
+|   212    |                          单词搜索II                          | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/WordSearchII.java)、Python、Go |   困难   |
+| ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ## 排序和搜索
 
@@ -213,7 +213,7 @@
 |   242    | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | Java、Python、Go |   简单   |
 |    56    | [合并区间](https://leetcode-cn.com/problems/merge-intervals/) | Java、Python、Go |   中等   |
 |   493    |  [翻转对](https://leetcode-cn.com/problems/reverse-pairs/)   | Java、Python、Go |   困难   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+| ———————— |                       ————————————————                       |  ——————————————  | ———————— |
 
 ### 2. 二分查找
 
@@ -229,12 +229,12 @@
 
 ### 3. 搜索
 
-|   题号   |     题目名称     |     解题代码     |   难度   |
-| :------: | :--------------: | :--------------: | :------: |
-|          |     单词接龙     |                  |          |
-|          |      朋友圈      |                  |          |
-|          |     岛屿数量     |                  |          |
-| ———————— | ———————————————— | ———————————————— | ———————— |
+|   题号   |    题目名称    |     解题代码     |   难度   |
+| :------: | :------------: | :--------------: | :------: |
+|          |    单词接龙    |                  |          |
+|          |     朋友圈     |                  |          |
+|          |    岛屿数量    |                  |          |
+| ———————— | —————————————— | ———————————————— | ———————— |
 
 ## 算法思想
 
@@ -254,7 +254,7 @@
 |   547    |  [朋友圈](https://leetcode-cn.com/problems/friend-circles/)  | Java、Python、Go |   中等   |
 |          |                            N 皇后                            | Java、Python、Go |   困难   |
 |    52    |  [N 皇后 II](https://leetcode-cn.com/problems/n-queens-ii/)  | Java、Python、Go |   困难   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+| ———————— |                        ——————————————                        | ———————————————— | ———————— |
 
 ### 3. 分治
 
@@ -275,5 +275,5 @@ pow(x, n)
 |          |                           打家劫舍                           | Java、Python、Go |          |
 |          |                          打家劫舍II                          | Java、Python、Go |          |
 |          |                           编辑距离                           | Java、Python、Go |   困难   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+| ———————— |                       ————————————————                       |  ——————————————  | ———————— |
 
