@@ -20,17 +20,30 @@ public class UnionFind {
     }
 
     public int find(int p) {
-        while (p != parent[p]) {
-            parent[p] = parent[parent[p]];
-            p = parent[p];
+        int res = p;
+        while (res != parent[res]) {
+            res = parent[res];
         }
-        return p;
+
+        //路径压缩
+        while (p != parent[p]) {
+            int temp = parent[p];
+            parent[p] = res;
+            p = temp;
+        }
+        return res;
     }
 
     public void union(int p, int q) {
         int rootP = find(p);
         int rootQ = find(q);
-        parent[rootP] = rootQ;
-        this.count--;
+        if (rootP != rootQ) {
+            parent[rootP] = rootQ;
+            this.count--;
+        }
+    }
+
+    public boolean connected(int p, int q) {
+        return find(p) == find(q);
     }
 }

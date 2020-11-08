@@ -1,9 +1,5 @@
 package leetcode
 
-import (
-	"container/list"
-)
-
 //二叉树的前序遍历
 
 //递归
@@ -31,21 +27,15 @@ func preorderTraversal2(root *TreeNode) []int {
 		return res
 	}
 
-	stack := list.New()
-	stack.PushFront(root)
-	for stack.Len() > 0 {
-		e := stack.Front()
-		if e != nil {
-			node := e.Value.(*TreeNode)
-			res = append(res, node.Val)
-			stack.Remove(e)
-
-			if node.Right != nil {
-				stack.PushFront(node.Right)
-			}
-			if node.Left != nil {
-				stack.PushFront(node.Left)
-			}
+	stack := []*TreeNode{root}
+	for len(stack) > 0 {
+		node := stack[len(stack)-1]
+		res = append(res, node.Val)
+		if node.Left != nil {
+			stack = append(stack, node.Left)
+		}
+		if node.Right != nil {
+			stack = append(stack, node.Right)
 		}
 	}
 	return res

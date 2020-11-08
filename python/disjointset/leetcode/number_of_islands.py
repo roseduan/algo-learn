@@ -55,3 +55,7 @@ class Solution:
                             queue.append([x, y + 1])
                     res += 1
         return res
+
+    # 并查集
+    def numIslands_3(self, grid: List[List[str]]) -> int:
+        pass

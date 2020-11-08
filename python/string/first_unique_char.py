@@ -3,6 +3,7 @@
 
 class Solution:
 
+    #  使用一个哈希表
     def firstUniqChar_1(self, s: str) -> int:
         m = {}
         for c in s:
@@ -12,6 +13,7 @@ class Solution:
                 return i
         return -1
 
+    # 使用一个数组
     def firstUniqChar_2(self, s: str) -> int:
         arr = [0] * 26
         for c in s:
@@ -20,3 +22,4 @@ class Solution:
             if arr[ord(c) - ord('a')] == 1:
                 return i
         return -1
+        
