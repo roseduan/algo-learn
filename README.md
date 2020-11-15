@@ -42,7 +42,7 @@
 |   206    | [反转链表](https://leetcode-cn.com/problems/reverse-linked-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/ReverseLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/reverse_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/reverse_linked_list.go) |   简单   |
 |   160    | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/IntersectionLinkedList.java)、Python、Go |   简单   |
 |   141    | [环形链表](https://leetcode-cn.com/problems/linked-list-cycle/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/LinkedListCycle.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/linked_list_cycle.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/linked_list_cycle.go) |   简单   |
-|    83    | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) |                       Java、Python、Go                       |   简单   |
+|    83    | [删除排序链表中的重复元素](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/remove_duplicates.go) |   简单   |
 |    21    | [合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/MergeTwoSortedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/merge_sorted_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/merge_two_sorted_lists.go) |   简单   |
 |   234    | [回文链表](https://leetcode-cn.com/problems/palindrome-linked-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/PalindromeLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/palindrome_linked_list.go) |   简单   |
 |   142    | [环形链表II](https://leetcode-cn.com/problems/linked-list-cycle-ii/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/linked_list_cycle_ii.py)、Go |   中等   |
@@ -75,7 +75,7 @@
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-|   225    | [使用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) |                       Java、Python、Go                       |   简单   |
+|   225    | [使用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/stack_using_queues.go) |   简单   |
 |   641    | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/MyCircularDeque.java)、Python、Go |   中等   |
 |   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) |                       Java、Python、Go                       |   中等   |
 |   239    | [滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/SlidingWindowMaximum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/sliding_window_maximum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/sliding_window_maximum.go) |   困难   |
@@ -93,20 +93,21 @@
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 |   344    | [反转字符串](https://leetcode-cn.com/problems/reverse-string/) |                       Java、Python、Go                       |   简单   |
-|   709    | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) |                       Java、Python、Go                       |   简单   |
-|    58    | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) |                       Java、Python、Go                       |   简单   |
+|   709    | [转换成小写字母](https://leetcode-cn.com/problems/to-lower-case/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/to_lower_case.py)、Go |   简单   |
+|    58    | [最后一个单词的长度](https://leetcode-cn.com/problems/length-of-last-word/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/length_of_ast_word.py)、Go |   简单   |
 |   541    | [反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/) |                       Java、Python、Go                       |   简单   |
 |    7     | [整数反转](https://leetcode-cn.com/problems/reverse-integer/) |                       Java、Python、Go                       |   简单   |
-|   917    | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) |                       Java、Python、Go                       |   简单   |
+|   917    | [仅仅反转字母](https://leetcode-cn.com/problems/reverse-only-letters/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/leetcode/ReverseOnlyLetters.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/string/reverse_only_letters.go) |   简单   |
+|   205    | [同构字符串](https://leetcode-cn.com/problems/isomorphic-strings/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/leetcode/IsomorphicStrings.java)、Python、Go |   简单   |
 |   387    | [字符串中的第一个唯一字符](https://leetcode-cn.com/problems/first-unique-character-in-a-string/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/first_unique_char.py)、Go |   简单   |
-|   125    | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) |                       Java、Python、Go                       |   简单   |
-|   680    | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) |                       Java、Python、Go                       |   简单   |
-|    28    | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) |                       Java、Python、Go                       |   简单   |
-|    14    | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) |                       Java、Python、Go                       |   简单   |
-|    8     | [字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) |                       Java、Python、Go                       |   中等   |
+|   125    | [验证回文串](https://leetcode-cn.com/problems/valid-palindrome/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/is_palindrome.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/string/valid_palindrome.go) |   简单   |
+|   680    | [验证回文字符串 Ⅱ](https://leetcode-cn.com/problems/valid-palindrome-ii/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/string/valid_palindrome_ii.go) |   简单   |
+|    28    | [实现 strStr()](https://leetcode-cn.com/problems/implement-strstr/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/implement_strstr.py)、Go |   简单   |
+|    14    | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/longest_common_prefix.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/string/longest_common_prefix.go) |   简单   |
+|    8     | [字符串转换整数](https://leetcode-cn.com/problems/string-to-integer-atoi/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/leetcode/StringToInteger.java)、Python、Go |   中等   |
 |   438    | [ 找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) |                       Java、Python、Go                       |   中等   |
-|   151    | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) |                       Java、Python、Go                       |   中等   |
-|   557    | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) |                       Java、Python、Go                       |   简单   |
+|   151    | [翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/leetcode/ReverseWordsInString.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/string/reverse_wrod_in_string.py)、Go |   中等   |
+|   557    | [反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/string/reverse_word_in_string_iii.go) |   简单   |
 |    38    | [外观数列](https://leetcode-cn.com/problems/count-and-say/)  |                       Java、Python、Go                       |   中等   |
 | ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
@@ -155,7 +156,7 @@
 | 剑指 Offer 40 | [最小的 k 的元素](https://leetcode-cn.com/problems/zui-xiao-de-kge-shu-lcof/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/heap/leetcode/MinKthElement.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/heap/min_kth_element.go) |   简单   |
 |      703      | [数据流中的第 k 大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/) |                       Java、Python、Go                       |   简单   |
 |      347      | [前 k 个高频元素](https://leetcode-cn.com/problems/top-k-frequent-elements/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/heap/leetcode/TopKFrequentElements.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/heap/topk_frequent_elements.go) |   中等   |
-|      215      | [数组中第 k 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) |                       Java、Python、Go                       |   中等   |
+|      215      | [数组中第 k 个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/heap/leetcode/kth_largest_element.py)、Go |   中等   |
 |      239      | [滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/heap/leetcode/SlidingWindow.java)、Python、Go |   困难   |
 |   ————————    |                       ————————————————                       |                       ————————————————                       | ———————— |
 
@@ -177,17 +178,17 @@
 |   103    | [二叉树的锯齿形层次遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/ZigZagLevelOrderTraversal.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/binary_tree_zigzag_level_order_traversal.py)、Go |   中等   |
 |   104    | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/maximum_depth_binary_tree.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/maximum_depth_binary_tree.go) |   简单   |
 |   111    | [二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/minimum_depth_binary_tree.py)、Go |   简单   |
-|   230    | [二叉搜索树中第 K 小元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) |                       Java、Python、Go                       |   中等   |
+|   230    | [二叉搜索树中第 K 小元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/kth_smallest_element_bst.py)、Go |   中等   |
 |    98    | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/valid_bst.py)、Go |   中等   |
-|          |                          对称二叉树                          | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/symmetric_tree.py)、Go |          |
+|   101    | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/symmetric_tree.py)、Go |   简单   |
 |   112    |    [路径总和](https://leetcode-cn.com/problems/path-sum/)    |                       Java、Python、Go                       |   简单   |
-|          |                   有序数组转换为二叉搜索树                   | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/sorted_array_to_bst.go) |   简单   |
+|   108    | [有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/SortedArrayToBst.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/sorted_array_to_bst.go) |   简单   |
 |   129    | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |                       Java、Python、Go                       |   中等   |
 |   116    | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) |                       Java、Python、Go                       |   中等   |
 |   105    | [从前序与中序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |                       Java、Python、Go                       |   中等   |
-|   589    | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) |                       Java、Python、Go                       |   简单   |
-|          |                       N叉树的后序遍历                        |                       Java、Python、Go                       |          |
-|          |                       N叉树的层次遍历                        |                       Java、Python、Go                       |          |
+|   589    | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreePreorderTraversal.java)、Python、Go |   简单   |
+|   590    | [N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreePostorderTraversal.java)、Python、Go |   简单   |
+|   429    | [N叉树的层次遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreeLevelOrderTraversal.java)、Python、Go |   中等   |
 | ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ### 2. 字典树
@@ -288,17 +289,18 @@
 |          |                            爬楼梯                            |                  |          |
 |   746    | [使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/) | Java、Python、Go |   简单   |
 |    53    | [最大子序和](https://leetcode-cn.com/problems/maximum-subarray/) | Java、Python、Go |   简单   |
-|          |                                                              |                  |          |
 |          |                      三角形的最短路径和                      |                  |          |
 |    64    | [最小路径和](https://leetcode-cn.com/problems/minimum-path-sum/) | Java、Python、Go |   中等   |
 |    62    |  [不同路径](https://leetcode-cn.com/problems/unique-paths/)  | Java、Python、Go |   中等   |
 |    63    | [不同路径II](https://leetcode-cn.com/problems/unique-paths-ii/) | Java、Python、Go |   中等   |
 |          |                        乘积最大子数组                        | Java、Python、Go |          |
-|   1143   | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | Java、Python、Go |          |
+|   1143   | [最长公共子序列](https://leetcode-cn.com/problems/longest-common-subsequence/) | Java、Python、Go |   中等   |
+|   583    | [两个字符串的删除操作](https://leetcode-cn.com/problems/delete-operation-for-two-strings/) | Java、Python、Go |   中等   |
 |   300    | [最长上升子序列](https://leetcode-cn.com/problems/longest-increasing-subsequence/) | Java、Python、Go |   中等   |
 |          |                          最大正方形                          | Java、Python、Go |          |
 |   198    |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)  | Java、Python、Go |   简单   |
 |          |                          打家劫舍II                          | Java、Python、Go |          |
+|          |                            按摩师                            |                  |          |
 |    72    | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)  | Java、Python、Go |   困难   |
 | ———————— |                       ————————————————                       |  ——————————————  | ———————— |
 
