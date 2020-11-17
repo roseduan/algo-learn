@@ -20,4 +20,9 @@ class Solution:
     
     # 摩尔投票法
     def majorityElement_3(self, nums: List[int]) -> int:
-        pass
+        count, candidate = 0, 0
+        for n in nums:
+            if count == 0:
+                candidate = n
+            count += (1 if candidate == n else -1)
+        return candidate
