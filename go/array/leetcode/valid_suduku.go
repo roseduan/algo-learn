@@ -3,13 +3,17 @@ package main
 //有效的数独
 
 func isValidSudoku(board [][]byte) bool {
-	//hor := make(map[int]bool)
-	//ver := make(map[int]bool)
-	//grid := make(map[int]bool)
-	for i := 0; i < len(board); i++ {
-		for j := 0; j < len(board[i]); j++ {
-
+	var hor, ver, grid [9][9]bool
+	for i := 0; i < 9; i++ {
+		for j := 0; j < 9; j++ {
+			if board[i][j] != '.' {
+				k := board[i][j] - '1'
+				if hor[i][k] || ver[j][k] || grid[i/3*3+j/3][k] {
+					return false
+				}
+				hor[i][k], ver[j][k], grid[i/3*3+j/3][k] = true, true, true
+			}
 		}
 	}
-	return false
+	return true
 }

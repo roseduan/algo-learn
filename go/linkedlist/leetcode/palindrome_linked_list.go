@@ -21,5 +21,27 @@ func isPalindrome1(head *ListNode) bool {
 
 // 原地解决
 func isPalindrome2(head *ListNode) bool {
-	return false
+	slow, fast := head, head
+	for fast != nil && fast.Next != nil {
+		slow, fast = slow.Next, fast.Next.Next
+	}
+
+	mid := slow
+	if fast != nil {
+		mid = slow.Next
+	}
+
+	var prev *ListNode
+	var next *ListNode = mid
+	for next != nil {
+		next.Next, prev, next = prev, next, next.Next
+	}
+
+	for head != slow && prev != nil {
+		if head.Val != prev.Val {
+			return false
+		}
+		head, prev = head.Next, prev.Next
+	}
+	return true
 }
