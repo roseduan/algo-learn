@@ -1,42 +1,62 @@
 package main
 
-type MyCircularDeque struct {
-	data       []int
-	head, tail int
+// 设计循环队列
+
+type MyCircularQueue struct {
+	data             []int
+	head, tail, size int
 }
 
-func Constructor(k int) MyCircularDeque {
-	return MyCircularDeque{make([]int, k), 0, 0}
+func Constructor(k int) MyCircularQueue {
+	return MyCircularQueue{
+		make([]int, k),
+		0, 0, 0,
+	}
 }
 
-func (this *MyCircularDeque) InsertFront(value int) bool {
-	return false
+func (this *MyCircularQueue) EnQueue(value int) bool {
+	if this.size == len(this.data) {
+		return false
+	}
+	this.data[this.tail] = value
+	this.tail = (this.tail + 1) % len(this.data)
+	this.size++
+	return true
 }
 
-func (this *MyCircularDeque) InsertLast(value int) bool {
-	return false
+func (this *MyCircularQueue) DeQueue() bool {
+	if this.size == 0 {
+		return false
+	}
+
+	this.head = (this.head + 1) % len(this.data)
+	this.size--
+	return true
 }
 
-func (this *MyCircularDeque) DeleteFront() bool {
-	return false
+func (this *MyCircularQueue) Front() int {
+	if this.size == 0 {
+		return -1
+	}
+	return this.data[this.head]
 }
 
-func (this *MyCircularDeque) DeleteLast() bool {
-	return false
+func (this *MyCircularQueue) Rear() int {
+	if this.size == 0 {
+		return -1
+	}
+
+	idx := this.tail - 1
+	if idx < 0 {
+		idx = len(this.data) - 1
+	}
+	return this.data[idx]
 }
 
-func (this *MyCircularDeque) GetFront() int {
-	return 1
+func (this *MyCircularQueue) IsEmpty() bool {
+	return this.size == 0
 }
 
-func (this *MyCircularDeque) GetRear() int {
-	return 1
-}
-
-func (this *MyCircularDeque) IsEmpty() bool {
-	return false
-}
-
-func (this *MyCircularDeque) IsFull() bool {
-	return false
+func (this *MyCircularQueue) IsFull() bool {
+	return this.size == len(this.data)
 }
