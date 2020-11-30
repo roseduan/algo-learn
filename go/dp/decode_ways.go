@@ -18,7 +18,6 @@ func numDecodings(s string) int {
 		if v, _ := strconv.Atoi(string(s[i])); v > 0 && v < 10 {
 			dp[i+1] += dp[i]
 		}
-
 		if k, _ := strconv.Atoi(s[i-1 : i+1]); k >= 10 && k <= 26 {
 			dp[i+1] += dp[i-1]
 		}

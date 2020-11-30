@@ -4,11 +4,11 @@ package leetcode
 
 //广度优先
 func ladderLength(beginWord string, endWord string, wordList []string) int {
-	wordSet, charSet := make(map[string]bool), make(map[rune]bool)
-	for _, word := range wordList {
-		wordSet[word] = true
-		for _, c := range word {
-			charSet[c] = true
+	wordSet, charSet := map[string]bool{}, map[int32]bool{}
+	for _, v := range wordList {
+		wordSet[v] = true
+		for _, b := range v {
+			charSet[b] = true
 		}
 	}
 	if !wordSet[endWord] {
@@ -24,8 +24,9 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 			if cur == endWord {
 				return res + 1
 			}
+
 			for j := 0; j < len(cur); j++ {
-				for c := range charSet {
+				for c, _ := range charSet {
 					modStr := cur[:j] + string(c) + cur[j+1:]
 					if wordSet[modStr] {
 						queue = append(queue, modStr)
@@ -33,8 +34,8 @@ func ladderLength(beginWord string, endWord string, wordList []string) int {
 					}
 				}
 			}
-			res++
 		}
+		res++
 	}
 	return 0
 }

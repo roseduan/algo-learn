@@ -5,40 +5,73 @@ import (
 	"testing"
 )
 
-func TestDoublyLinkedList(t *testing.T) {
-	lis := New()
+func TestLinkedList_PushFront(t *testing.T) {
+	list := New()
+	list.PushFront(3)
+	list.PushFront(5)
+	list.PushFront(1)
 
-	lis.PushBack(9)
+	fmt.Println(list.Size())
+	list.PrintData()
+}
 
-	lis.PushFront(1)
-	lis.PushFront(45)
-	lis.PushFront(2)
-	head := lis.PushFront(6)
+func TestLinkedList_PushBack(t *testing.T) {
+	list := New()
+	list.PushBack(3)
+	list.PushBack(9)
+	list.PushBack(12)
 
-	e19 := lis.PushBack(19)
-	lis.PushBack(29)
+	list.PrintData()
+}
 
-	lis.PushBefore(e19, 100)
+func TestLinkedList_PushBefore(t *testing.T) {
+	list := New()
+	e1 := list.PushBack(3)
+	e2 := list.PushBack(12)
+	list.PushBack(9)
 
-	fmt.Println(lis.length)
-	lis.PrintData()
+	list.PushBefore(e1, 4)
 
-	fmt.Println("删除头节点")
-	lis.Delete(head)
+	list.PushBefore(e2, 83)
 
-	//删除一个不存在的节点
-	lis.Delete(&ListNode{2, nil, nil})
-	fmt.Println(lis.length)
-	lis.PrintData()
+	fmt.Println(list.Size())
+	list.PrintData()
+}
 
-	fmt.Println("只有一个节点的删除")
-	lis2 := New()
-	e1 := lis2.PushFront(1)
+func TestLinkedList_PushAfter(t *testing.T) {
+	list := New()
+	e1 := list.PushBack(3)
+	e2 := list.PushBack(12)
 
-	lis2.PrintData()
-	fmt.Println(lis2.length)
+	list.PushAfter(e1, 44)
+	list.PushAfter(e2, 55)
 
-	lis2.Delete(e1)
-	lis2.PrintData()
-	fmt.Println(lis2.length)
+	fmt.Println(list.Size())
+	list.PrintData()
+}
+
+func TestLinkedList_Delete(t *testing.T) {
+	list := New()
+	e1 := list.PushBack(3)
+	e2 := list.PushBack(5)
+	e3 := list.PushBack(9)
+	e4 := list.PushBack(10)
+
+	list.PrintData()
+
+	list.Delete(e1)
+	list.Delete(e2)
+	list.Delete(e3)
+
+	list.PushBack(1)
+	list.PushBack(12)
+	list.PushBack(99)
+
+	list.PrintData()
+
+	list.Delete(e4)
+	list.Delete(list.Find(1))
+
+	list.PrintData()
+	fmt.Println(e1, e2, e3, e4)
 }

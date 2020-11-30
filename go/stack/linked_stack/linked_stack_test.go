@@ -1,4 +1,4 @@
-package stack
+package linked_stack
 
 import (
 	"fmt"

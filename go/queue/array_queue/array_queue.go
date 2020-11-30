@@ -1,4 +1,4 @@
-package queue
+package array_queue
 
 import (
 	"errors"
@@ -6,6 +6,11 @@ import (
 )
 
 //队列实现（基于数组）
+
+var (
+	ErrQueueFull  = errors.New("error: queue is full")
+	ErrQueueEmpty = errors.New("error: queue is empty")
+)
 
 type ArrayQueue struct {
 	data     []interface{}
@@ -15,7 +20,7 @@ type ArrayQueue struct {
 	capacity int
 }
 
-func NewArrayQueue(capacity int) *ArrayQueue {
+func New(capacity int) *ArrayQueue {
 	return &ArrayQueue{
 		size: 0, head: 0, tail: 0,
 		data:     make([]interface{}, capacity),
@@ -26,7 +31,7 @@ func NewArrayQueue(capacity int) *ArrayQueue {
 //入队列
 func (queue *ArrayQueue) Enqueue(val interface{}) error {
 	if queue.tail >= queue.capacity && queue.head == 0 {
-		return errors.New("queue is full")
+		return ErrQueueFull
 	}
 
 	if queue.head > 0 {
@@ -44,7 +49,7 @@ func (queue *ArrayQueue) Enqueue(val interface{}) error {
 //出队列
 func (queue *ArrayQueue) Dequeue() (interface{}, error) {
 	if queue.Empty() {
-		return nil, errors.New("queue is empty")
+		return nil, ErrQueueEmpty
 	}
 
 	res := queue.data[queue.head]

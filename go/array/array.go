@@ -7,13 +7,15 @@ import (
 
 //动态数组的实现
 
-const DefaultCapacity = 16
-const CapacityThreshold = 1024
+const (
+	DefaultCapacity   = 16
+	CapacityThreshold = 1024
+)
 
 type Array struct {
 	data     []interface{}
 	capacity int
-	length   int
+	size     int
 }
 
 func New(capacity int) *Array {
@@ -39,7 +41,7 @@ func (arr *Array) Add(index int, val interface{}) error {
 	}
 
 	//扩容
-	if arr.length >= arr.capacity {
+	if arr.size >= arr.capacity {
 		if arr.capacity >= CapacityThreshold {
 			arr.resize(int(float64(arr.capacity) * 1.25))
 		} else {
@@ -47,19 +49,15 @@ func (arr *Array) Add(index int, val interface{}) error {
 		}
 	}
 
-	//for i := arr.length; i > index; i-- {
-	//	arr.data[i] = arr.data[i - 1]
-	//}
-
 	copy(arr.data[index+1:], arr.data[index:])
 	arr.data[index] = val
-	arr.length++
+	arr.size++
 	return nil
 }
 
 //插入至尾部
 func (arr *Array) Append(val interface{}) error {
-	return arr.Add(arr.length, val)
+	return arr.Add(arr.size, val)
 }
 
 //按照索引查找
@@ -72,19 +70,44 @@ func (arr *Array) Find(index int) (interface{}, error) {
 	return arr.data[index], nil
 }
 
+//是否包含
+func (arr *Array) Contains(val interface{}) bool {
+	if arr.Empty() {
+		return false
+	}
+
+	for _, v := range arr.data {
+		if v == val {
+			return true
+		}
+	}
+	return false
+}
+
 //删除索引处的值
 func (arr *Array) Delete(index int) error {
 	err := arr.checkIndex(index + 1)
 	if err != nil {
 		return err
 	}
+	if arr.data[index] == nil {
+		return nil
+	}
 
 	arr.data[index] = nil
 	copy(arr.data[index:], arr.data[index+1:])
 
-	arr.data[arr.length-1] = nil
-	arr.length--
+	arr.data[arr.size-1] = nil
+	arr.size--
 	return nil
+}
+
+func (arr *Array) Size() int {
+	return arr.size
+}
+
+func (arr *Array) Empty() bool {
+	return arr.size == 0
 }
 
 //打印所有元素值

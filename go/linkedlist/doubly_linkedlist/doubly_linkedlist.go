@@ -17,8 +17,8 @@ func newNode(val interface{}) *ListNode {
 
 //链表定义
 type LinkedList struct {
-	head   *ListNode
-	length int
+	head *ListNode
+	size int
 }
 
 //新建链表
@@ -35,7 +35,7 @@ func (lis *LinkedList) PushFront(val interface{}) *ListNode {
 	}
 
 	lis.head = node
-	lis.length++
+	lis.size++
 	return node
 }
 
@@ -47,12 +47,13 @@ func (lis *LinkedList) PushBack(val interface{}) *ListNode {
 
 	node := newNode(val)
 	p := lis.head
-	for ; p.next != nil; p = p.next {
+	for p.next != nil {
+		p = p.next
 	}
 
 	p.next = node
 	node.prev = p
-	lis.length++
+	lis.size++
 	return node
 }
 
@@ -62,14 +63,19 @@ func (lis *LinkedList) PushAfter(p *ListNode, val interface{}) *ListNode {
 		return nil
 	}
 
+	next := p.next
 	node := newNode(val)
+	node.next = next
 	p.next = node
 	node.prev = p
-	lis.length++
+	if next != nil {
+		next.prev = node
+	}
+	lis.size++
 	return node
 }
 
-//在某个节点之前插入元素（与单链表的主要差异体现在这里）
+//在某个节点之前插入元素
 func (lis *LinkedList) PushBefore(p *ListNode, val interface{}) *ListNode {
 	if p == nil {
 		return nil
@@ -84,9 +90,8 @@ func (lis *LinkedList) PushBefore(p *ListNode, val interface{}) *ListNode {
 		node.next = p
 		prev.next = node
 		node.prev = prev
+		lis.size++
 	}
-
-	lis.length++
 	return node
 }
 
@@ -96,17 +101,34 @@ func (lis *LinkedList) Delete(p *ListNode) {
 		return
 	}
 
-	prev := p.prev
 	//删除的是头节点
-	if prev == nil && p == lis.head {
-		lis.head = lis.head.next
-		lis.length--
-	} else if prev != nil {
-		next := p.next
+	if p == lis.head {
+		lis.head = p.next
+	} else {
+		prev, next := p.prev, p.next
 		prev.next = next
-		next.prev = prev
-		lis.length--
+		if next != nil {
+			next.prev = prev
+		}
 	}
+	lis.size--
+}
+
+//根据值查找节点
+func (lis *LinkedList) Find(val interface{}) *ListNode {
+	if lis.head == nil {
+		return nil
+	}
+
+	p := lis.head
+	for p != nil && p.val != val {
+		p = p.next
+	}
+	return p
+}
+
+func (lis *LinkedList) Size() int {
+	return lis.size
 }
 
 //打印所有链表数据

@@ -1,4 +1,4 @@
-package queue
+package array_queue
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 func TestArrayQueue(t *testing.T) {
-	queue := NewArrayQueue(5)
+	queue := New(5)
 
 	_ = queue.Enqueue(5)
 	_ = queue.Enqueue(1)

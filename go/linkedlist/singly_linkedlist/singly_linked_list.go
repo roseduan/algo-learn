@@ -6,8 +6,8 @@ import "fmt"
 
 //节点定义
 type ListNode struct {
-	val  interface{}
-	next *ListNode
+	Val  interface{}
+	Next *ListNode
 }
 
 //创建节点
@@ -17,8 +17,8 @@ func newNode(val interface{}) *ListNode {
 
 //单链表结构
 type LinkedList struct {
-	head   *ListNode
-	length int
+	head *ListNode
+	size int
 }
 
 func New() *LinkedList {
@@ -33,13 +33,13 @@ func (lis *LinkedList) PushBack(val interface{}) *ListNode {
 	if p == nil {
 		lis.head = node
 	} else {
-		for p.next != nil {
-			p = p.next
+		for p.Next != nil {
+			p = p.Next
 		}
-		p.next = node
+		p.Next = node
 	}
 
-	lis.length++
+	lis.size++
 	return node
 }
 
@@ -52,17 +52,17 @@ func (lis *LinkedList) PushBefore(p *ListNode, val interface{}) *ListNode {
 	node := newNode(val)
 
 	if p == lis.head {
-		node.next = lis.head
+		node.Next = lis.head
 		lis.head = node
 	} else {
 		prev := lis.head
-		for ; prev.next != p; prev = prev.next {
+		for ; prev.Next != p; prev = prev.Next {
 		}
 
-		node.next = p
-		prev.next = node
+		node.Next = p
+		prev.Next = node
 	}
-	lis.length++
+	lis.size++
 	return node
 }
 
@@ -73,17 +73,17 @@ func (lis *LinkedList) PushAfter(p *ListNode, val interface{}) *ListNode {
 	}
 
 	node := newNode(val)
-	node.next = p.next
-	p.next = node
-	lis.length++
+	node.Next = p.Next
+	p.Next = node
+	lis.size++
 	return node
 }
 
 //根据值查找链表节点
 func (lis *LinkedList) Find(val interface{}) *ListNode {
 	p := lis.head
-	for p != nil && p.val != val {
-		p = p.next
+	for p != nil && p.Val != val {
+		p = p.Next
 	}
 
 	return p
@@ -96,16 +96,17 @@ func (lis *LinkedList) Delete(p *ListNode) {
 	}
 
 	if p == lis.head {
-		lis.head = lis.head.next
-		lis.length--
+		lis.head = lis.head.Next
+		lis.size--
 	} else {
 		prev := lis.head
-		for prev != nil && prev.next != p {
-			prev = prev.next
+		for prev != nil && prev.Next != p {
+			prev = prev.Next
 		}
 
 		if prev != nil {
-			prev.next = p.next
+			prev.Next = p.Next
+			lis.size--
 		}
 	}
 }
@@ -115,10 +116,14 @@ func (lis *LinkedList) DeleteVal(val interface{}) {
 	lis.Delete(lis.Find(val))
 }
 
+func (lis *LinkedList) Size() int {
+	return lis.size
+}
+
 //打印链表中所有数据
 func (lis *LinkedList) PrintData() {
-	for p := lis.head; p != nil; p = p.next {
-		fmt.Print(p.val, " ")
+	for p := lis.head; p != nil; p = p.Next {
+		fmt.Print(p.Val, " ")
 	}
 	fmt.Println()
 }

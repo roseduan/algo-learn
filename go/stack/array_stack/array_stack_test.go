@@ -1,4 +1,4 @@
-package stack
+package array_stack
 
 import (
 	"fmt"
