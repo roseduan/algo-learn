@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author roseduan[roseduan520@gmail.com]
  * @time 2019/12/4 22:52
- * @description 泛型动态数组
+ * @description 动态数组实现
  */
 public class GenericArray<T> {
 
@@ -44,6 +44,7 @@ public class GenericArray<T> {
         if (index < 0 || index > size){
             throw new IllegalArgumentException("the index is illegal!");
         }
+
         System.arraycopy(data, index, data, index + 1, size - index);
         data[index] = val;
         if (++size >= capacity){

@@ -3,7 +3,7 @@
 
 ## 数组
 
-* 实现一个动态扩容的数组【Java、Python、Go】
+* 实现一个动态扩容的数组【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/GenericArray.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/array.go)】
 
 * 常见 leetcode 练习题：
 
@@ -27,14 +27,14 @@
 |    48    |  [旋转图像](https://leetcode-cn.com/problems/rotate-image/)  | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/RotateImage.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/rotate_image.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/rotate_image.go) |   中等   |
 |   384    | [打乱数组](https://leetcode-cn.com/problems/shuffle-an-array/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ShuffleAnArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/shuffle_array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/shuffle_array.go) |   中等   |
 |    36    | [有效的数独](https://leetcode-cn.com/problems/valid-sudoku/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/leetcode/ValidSudoku.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/valid_suduko.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/valid_suduku.go) |   中等   |
-|    73    | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/set_matrix_zeros.py)、Go |   中等   |
+|    73    | [矩阵置零](https://leetcode-cn.com/problems/set-matrix-zeroes/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/leetcode/set_matrix_zeros.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/leetcode/set_matrix_zeros.go) |   中等   |
 | ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 链表
 
-* 实现一个单链表【Java、Python、Go】
-* 实现一个双向链表【Java、Python、Go】
-* 实现一个循环链表【Java、Python、Go】
+* 实现一个单链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/SingleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/singly_linkedlist/singly_linked_list.go)】
+* 实现一个双向链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/DoubleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/doubly_linkedlist/doubly_linkedlist.go)】
+* 实现一个循环链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/CircleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/circular_linkedlist/circular_linkedlist.go)】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -50,14 +50,14 @@
 |    19    | [删除链表倒数第 N 个节点](https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/RemoveNthNode.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/delete_nth_node.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/remove_nth_node.go) |   中等   |
 |    24    | [两两交换链表节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/SwapNodesInPairs.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/swap_nodes_in_pairs.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/swap_node_in_pairs.go) |   中等   |
 |   328    | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/OddEvenLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/odd_even_linked_list.go) |   中等   |
-|    2     | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/AddTwoNumbers.java)、Python、Go |   中等   |
-|    25    | [k 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) |                       Java、Python、Go                       |   困难   |
+|    2     | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/AddTwoNumbers.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/add_two_numbers.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/add_two_numbers.go) |   中等   |
+|    25    | [k 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/reverse_nodes_in_k_group.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/reverse_nodes_in_k_group.go) |   困难   |
 | ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ## 栈
 
-* 使用数组实现一个栈【Java、Python、Go】
-* 实现链表实现一个栈【Java、Python、Go】
+* 使用数组实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/ArrayStack.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/array_stack/array_stack.go)】
+* 实现链表实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/LinkedStack.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/linked_stack/linked_stack.go)】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -65,30 +65,32 @@
 |    20    | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/ValidParentheses.java)、[Python](https://github.com/roseduan/algo-learn/blob/48d5a3e9fe/python/stack/leetcode/valid_parentheses.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/valid_parentheses.go) |   简单   |
 |   155    |    [最小栈](https://leetcode-cn.com/problems/min-stack/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MinStack.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/min_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/min_stack.go) |   简单   |
 |   232    | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MyQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/queue_use_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/queue_using_stack.go) |   简单   |
+|   856    | [括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/) |                       Java、Python、Go                       |   中等   |
 |    84    | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/largest_rectangle_in_histogram.go) |   困难   |
 | ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 队列
 
-* 使用数组实现一个队列【Java、Python、Go】
-* 使用链表实现一个队列【Java、Python、Go】
+* 使用数组实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/ArrayQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/array_queue/array_queue.go)】
+* 使用链表实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/LinkedQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/linked_queue/linked_queue.go)】
+* 实现一个循环队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/CycleQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/circular_queue/circular_queue.go)】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
-|   225    | [使用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/stack_using_queues.go) |   简单   |
-|   641    | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/MyCircularDeque.java)、Python、Go |   中等   |
-|   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) |                       Java、Python、Go                       |   中等   |
+|   225    | [使用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/StackUseQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/stack_use_queue.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/stack_using_queues.go) |   简单   |
+|   641    | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/MyCircularDeque.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/design_circular_deque.go) |   中等   |
+|   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/design_circular_queue.go) |   中等   |
 |   239    | [滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/SlidingWindowMaximum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/sliding_window_maximum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/sliding_window_maximum.go) |   困难   |
 | ———————— |                        ——————————————                        |                        ——————————————                        | ———————— |
 
 ## 字符串
 
 * 字符串匹配算法：
-  * BF(Brute Force) 算法
-  * RK(Rabin Karp) 算法
-  * BM(Bore Moore) 算法
-  * KMP(Knuth Morris Parrt) 算法
+  * BF(Brute Force) 算法【Java、Python、Go】
+  * RK(Rabin Karp) 算法【Java、Python、Go】
+  * BM(Bore Moore) 算法【Java、Python、Go】
+  * KMP(Knuth Morris Parrt) 算法【Java、Python、Go】
 * 常见 leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -114,8 +116,8 @@
 
 ## 哈希表
 
-* 实现一个基础的哈希表【Java、Python、Go】
-* 用哈希表和双向链表实现一个 Lru Cache
+* 实现一个简单的哈希表【Java、Python、Go】
+* 用哈希表和双向链表实现一个 Lru Cache【Java、Python、Go】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -123,16 +125,20 @@
 |   349    | [求两个数组的交集](https://leetcode-cn.com/problems/intersection-of-two-arrays/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/ArrayIntersection.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/array_intersection.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/array_intersection.go) |   简单   |
 |   350    | [求两个数组的交集II](https://leetcode-cn.com/problems/intersection-of-two-arrays-ii/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/ArrayIntersectionII.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/array_intersection_ii.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/array_intersection_ii.go) |   简单   |
 |   242    | [有效的字母异位词](https://leetcode-cn.com/problems/valid-anagram/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/ValidAnagram.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/valid_anagram.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/valida_anagram.go) |   简单   |
-|   771    | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) |                       Java、Python、Go                       |   简单   |
-|    49    | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/group_anagram.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/group_anagram.go) |   中等   |
-|   438    | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/find_all_anagrams.py)、Go |   中等   |
-|   146    | [实现 lru 缓存](https://leetcode-cn.com/problems/lru-cache/#/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/lru_cache.go) |   中等   |
-|   380    | [常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) |                       Java、Python、Go                       |   中等   |
+|   771    | [宝石与石头](https://leetcode-cn.com/problems/jewels-and-stones/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/jewels_and_stones.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/jewels_and_stones.go) |   简单   |
+|    49    | [字母异位词分组](https://leetcode-cn.com/problems/group-anagrams/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/GroupAnagram.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/group_anagram.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/group_anagram.go) |   中等   |
+|   438    | [找到字符串中所有字母异位词](https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/FindAnagrams.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/find_all_anagrams.py)、Go |   中等   |
+|   146    | [实现 lru 缓存](https://leetcode-cn.com/problems/lru-cache/#/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/LRUCache.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/lru_cache.go) |   中等   |
+|   380    | [常数时间插入、删除和获取随机元素](https://leetcode-cn.com/problems/insert-delete-getrandom-o1/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/hashtable/leetcode/RandomizedSet.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/hashtable/leetcode/randomized_set.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/hashtable/leetcode/randomized_set.go) |   中等   |
 | ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 布隆过滤器
 
-* 实现一个简单的布隆过滤器【Java、Python、Go】
+* 实现一个简单的布隆过滤器【Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/bloomfilter/bloom_filter.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/bloomfilter/bloom_filter.go)】
+* 其他优秀的 BloomFilter 实现：
+  * [https://github.com/jaybaird/python-bloomfilter 【Python】](https://github.com/jaybaird/python-bloomfilter)
+  * [https://github.com/MagnusS/Java-BloomFilter【Java】](https://github.com/MagnusS/Java-BloomFilter)
+  * [https://github.com/steakknife/bloomfilter【Golang】](https://github.com/steakknife/bloomfilter)
 
 ## 并查集
 
@@ -149,7 +155,7 @@
 
 ## 二叉堆
 
-* 实现一个二叉堆
+* 实现一个二叉堆【Java、Python、Go】
 * 常见 leetcode 练习题
 
 |     题号      |                           题目名称                           |                           解题代码                           |   难度   |
@@ -165,7 +171,7 @@
 
 ### 1. 二叉树
 
-* 实现一个二叉树
+* 实现一个二叉搜索树【Java、Python、Go】
 * 常见 leetcode 练习题：
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -303,7 +309,8 @@
 |          |                          最大正方形                          | Java、Python、Go |          |
 |   198    |  [打家劫舍](https://leetcode-cn.com/problems/house-robber/)  | Java、Python、Go |   简单   |
 |          |                          打家劫舍II                          | Java、Python、Go |          |
-|          |                            按摩师                            |                  |          |
+|          |                            按摩师                            | Java、Python、Go |   简单   |
+|    91    |  [解码方法](https://leetcode-cn.com/problems/decode-ways/)   | Java、Python、Go |   中等   |
 |    72    | [编辑距离](https://leetcode-cn.com/problems/edit-distance/)  | Java、Python、Go |   困难   |
 | ———————— |                       ————————————————                       |  ——————————————  | ———————— |
 
