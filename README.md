@@ -87,10 +87,10 @@
 ## 字符串
 
 * 字符串匹配算法：
-  * BF(Brute Force) 算法【Java、Python、Go】
-  * RK(Rabin Karp) 算法【Java、Python、Go】
-  * BM(Bore Moore) 算法【Java、Python、Go】
-  * KMP(Knuth Morris Parrt) 算法【Java、Python、Go】
+  * BF 算法【[Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/BruteForce.java)、Python、Go】
+  * RK 算法【[Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/RabinKarp.java)、Python、Go】
+  * BM 算法【[Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/BM.java)、Python、Go】
+  * KMP 算法【[Java](https://github.com/roseduan/algo-learn/blob/master/java/algorithm/string/KMP.java)、Python、Go】
 * 常见 leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |

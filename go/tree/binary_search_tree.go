@@ -60,6 +60,18 @@ func (b *BinarySearchTree) Find(val int) *TreeNode {
 	return p
 }
 
+func (b *BinarySearchTree) Delete(val int) bool {
+	p := b.root
+	for p != nil && p.val != val {
+		if p.val > val {
+			p = p.left
+		} else {
+			p = p.right
+		}
+	}
+	return true
+}
+
 //打印树中的所有数据（采用中序遍历）
 func (b *BinarySearchTree) PrintData() {
 	p := b.root

@@ -7,7 +7,7 @@ import (
 func TestArray(t *testing.T) {
 	arr := New(5)
 
-	t.Run("Add", func(t *testing.T) {
+	t.Run("Put", func(t *testing.T) {
 		arr.Add(0, 3)
 		arr.Add(3, 2)
 		arr.Add(4, 3)
@@ -26,7 +26,7 @@ func TestArray(t *testing.T) {
 		arr.PrintData()
 	})
 
-	t.Run("Delete", func(t *testing.T) {
+	t.Run("Remove", func(t *testing.T) {
 		arr.Add(0, 3)
 		arr.Add(3, 2)
 		arr.Add(4, 3)

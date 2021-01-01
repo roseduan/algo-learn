@@ -27,6 +27,7 @@ func singleNumber2(nums []int) int {
 			m[n] = true
 		}
 	}
+
 	res := 0
 	for v := range m {
 		res = v
@@ -34,8 +35,25 @@ func singleNumber2(nums []int) int {
 	return res
 }
 
-//位运算
+//使用哈希表，记录元素出现的次数
 func singleNumber3(nums []int) int {
+	m := make(map[int]int)
+
+	for _, n := range nums {
+		m[n] += 1
+	}
+
+	for k, v := range m {
+		if v == 1 {
+			return k
+		}
+	}
+
+	return -1
+}
+
+//位运算
+func singleNumber4(nums []int) int {
 	res := 0
 	for _, n := range nums {
 		res ^= n

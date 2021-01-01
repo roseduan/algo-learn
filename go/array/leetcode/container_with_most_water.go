@@ -2,6 +2,7 @@ package main
 
 //装水最多的容器
 
+//暴力法，两层循环
 func maxArea1(height []int) int {
 	max := 0
 	for i := 0; i < len(height)-1; i++ {
@@ -12,6 +13,7 @@ func maxArea1(height []int) int {
 			}
 		}
 	}
+
 	return max
 }
 
@@ -19,9 +21,11 @@ func min(x int, y int) int {
 	if x > y {
 		return y
 	}
+
 	return x
 }
 
+//双指针法
 func maxArea2(height []int) int {
 	max, i, j := 0, 0, len(height)-1
 	for i < j {
@@ -29,11 +33,13 @@ func maxArea2(height []int) int {
 		if res > max {
 			max = res
 		}
+
 		if height[i] < height[j] {
 			i++
 		} else {
 			j--
 		}
 	}
+
 	return max
 }
