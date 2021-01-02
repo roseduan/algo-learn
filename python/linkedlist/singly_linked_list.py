@@ -22,17 +22,16 @@ class LinkedList:
             p = p.next
         return p
 
-    # 添加节点
+    # 添加节点至链表末尾
     def add(self, val) -> ListNode:
         node = ListNode(val)
         if not self.head:
             self.head = node
         else:
             p = self.head
-            while p and p.next:
+            while p.next:
                 p = p.next
-            if p:
-                p.next = node
+            p.next = node
         return node
 
     # 在某个节点之前添加
@@ -57,7 +56,19 @@ class LinkedList:
         if not p:
             return
         node = ListNode(val)
+        node.next = p.next
         p.next = node
+
+    # 删除节点
+    def delete(self, node: ListNode) -> bool:
+        p = self.head
+        while p and p.next != node:
+            p = p.next
+        if not p:
+            return False
+
+        p.next = p.next.next
+        return True
 
     # 打印所有元素值
     def print(self):
@@ -67,19 +78,19 @@ class LinkedList:
         while p:
             print(p.val, end=' ')
             p = p.next
+        print()
 
 
 if __name__ == '__main__':
     lis = LinkedList()
     lis.add(1)
-    e3 = lis.add(3)
-    lis.add(5)
+    n1 = lis.add(3)
+    n2 = lis.add(5)
 
-    lis.addBefore(e3, 14)
-    lis.addBefore(e3, 15)
+    lis.print()
 
-    n = lis.find(12)
+    lis.delete(n2)
+    lis.print()
 
-    print(n.val if n else None)
-
+    lis.addBefore(n1, 10)
     lis.print()

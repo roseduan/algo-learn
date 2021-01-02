@@ -3,7 +3,7 @@
 
 ## 数组
 
-* 实现一个动态扩容的数组【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/GenericArray.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/array.go)】
+* 实现一个动态扩容的数组【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/GenericArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/array.go)】
 
 * 常见 leetcode 练习题：
 
@@ -51,7 +51,7 @@
 |    24    | [两两交换链表节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/SwapNodesInPairs.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/swap_nodes_in_pairs.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/swap_node_in_pairs.go) |   中等   |
 |   328    | [奇偶链表](https://leetcode-cn.com/problems/odd-even-linked-list/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/OddEvenLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/odd_even_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/odd_even_linked_list.go) |   中等   |
 |    2     | [两数相加](https://leetcode-cn.com/problems/add-two-numbers/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/AddTwoNumbers.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/add_two_numbers.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/add_two_numbers.go) |   中等   |
-|    25    | [k 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/reverse_nodes_in_k_group.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/reverse_nodes_in_k_group.go) |   困难   |
+|    25    | [k 个一组翻转链表](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/leetcode/ReverseNodesKGroup.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/leetcode/reverse_nodes_in_k_group.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/leetcode/reverse_nodes_in_k_group.go) |   困难   |
 | ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ## 栈
