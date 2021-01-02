@@ -20,6 +20,7 @@ func reverseKGroup1(head *ListNode, k int) *ListNode {
 		cur.Next = &ListNode{Val: arr[i]}
 		cur = cur.Next
 	}
+
 	return dummy.Next
 }
 
@@ -29,4 +30,38 @@ func reverseArr(arr []int, i, j int) {
 		i++
 		j--
 	}
+}
+
+//官方解法
+func reverseKGroup2(head *ListNode, k int) *ListNode {
+	dummy := &ListNode{Val: -1}
+	dummy.Next = head
+	prev, end := dummy, dummy
+
+	reverse := func(node *ListNode) (prev *ListNode) {
+		p := node
+		for p != nil {
+			p.Next, prev, p = prev, p, p.Next
+		}
+		return
+	}
+
+	for end.Next != nil {
+		for i := 0; i < k && end != nil; i++ {
+			end = end.Next
+		}
+		if end == nil {
+			break
+		}
+
+		start, next := prev.Next, end.Next
+		end.Next = nil
+		prev.Next = reverse(start)
+		start.Next = next
+
+		prev = start
+		end = start
+	}
+
+	return dummy.Next
 }
