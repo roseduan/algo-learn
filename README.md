@@ -32,8 +32,8 @@
 
 ## 链表
 
-* 实现一个单链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/SingleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/singly_linkedlist/singly_linked_list.go)】
-* 实现一个双向链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/DoubleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/doubly_linkedlist/doubly_linkedlist.go)】
+* 实现一个单链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/SingleLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/singly_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/singly_linkedlist/singly_linked_list.go)】
+* 实现一个双向链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/DoubleLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/doubly_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/doubly_linkedlist/doubly_linkedlist.go)】
 * 实现一个循环链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/CircleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/circular_linkedlist/circular_linkedlist.go)】
 * 常见 Leetcode 练习题
 
