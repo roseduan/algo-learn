@@ -56,8 +56,8 @@
 
 ## 栈
 
-* 使用数组实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/ArrayStack.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/array_stack/array_stack.go)】
-* 实现链表实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/LinkedStack.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/linked_stack/linked_stack.go)】
+* 使用数组实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/ArrayStack.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/array_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/array_stack/array_stack.go)】
+* 实现链表实现一个栈【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/LinkedStack.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/linked_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/linked_stack/linked_stack.go)】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |

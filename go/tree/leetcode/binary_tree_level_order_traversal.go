@@ -1,34 +1,50 @@
 package leetcode
 
-import "container/list"
-
 //二叉树的层次遍历
 
-func binaryTreeLevelOrder(root *TreeNode) [][]int {
+//广度优先
+func binaryTreeLevelOrder1(root *TreeNode) [][]int {
 	var res [][]int
-	if root == nil {
-		return res
-	}
-
-	queue := list.New()
-	queue.PushBack(root)
-	for queue.Len() > 0 {
+	queue := []*TreeNode{root}
+	for len(queue) > 0 {
 		var lis []int
-		n := queue.Len()
-		for i := 0; i < n; i++ {
-			e := queue.Front()
-			queue.Remove(e)
+		n := len(queue)
 
-			node := e.Value.(*TreeNode)
+		for i := 0; i < n; i++ {
+			node := queue[0]
+			queue = queue[1:]
 			lis = append(lis, node.Val)
+
 			if node.Left != nil {
-				queue.PushBack(node.Left)
+				queue = append(queue, node.Left)
 			}
 			if node.Right != nil {
-				queue.PushBack(node.Right)
+				queue = append(queue, node.Right)
 			}
 		}
 		res = append(res, lis)
 	}
+
 	return res
+}
+
+//深度优先
+func levelOrder2(root *TreeNode) [][]int {
+	var res [][]int
+	levelOrderHelper(root, 0, &res)
+	return res
+}
+
+func levelOrderHelper(root *TreeNode, level int, res *[][]int) {
+	if root == nil {
+		return
+	}
+
+	if level == len(*res) {
+		*res = append(*res, []int{})
+	}
+
+	(*res)[level] = append((*res)[level], root.Val)
+	levelOrderHelper(root.Left, level+1, res)
+	levelOrderHelper(root.Right, level+1, res)
 }

@@ -1,9 +1,5 @@
 package main
 
-import (
-	"container/list"
-)
-
 //翻转二叉树
 
 type TreeNode struct {
@@ -29,20 +25,20 @@ func invertTree2(root *TreeNode) *TreeNode {
 		return root
 	}
 
-	queue := list.New()
-	queue.PushBack(root)
-	for queue.Len() > 0 {
-		e := queue.Front()
-		queue.Remove(e)
-		node := e.Value.(*TreeNode)
+	queue := []*TreeNode{root}
+
+	for len(queue) > 0 {
+		node := queue[0]
+		queue = queue[1:]
 
 		node.Left, node.Right = node.Right, node.Left
 		if node.Left != nil {
-			queue.PushBack(node.Left)
+			queue = append(queue, node.Left)
 		}
 		if node.Right != nil {
-			queue.PushBack(node.Right)
+			queue = append(queue, node.Right)
 		}
 	}
+
 	return root
 }

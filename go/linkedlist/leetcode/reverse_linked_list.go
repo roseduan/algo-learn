@@ -24,3 +24,15 @@ func helper(prev, cur *ListNode) *ListNode {
 	cur.Next = prev
 	return helper(cur, next)
 }
+
+//官方的递归解法
+func reverseList2(head *ListNode) *ListNode {
+	if head == nil || head.Next == nil {
+		return head
+	}
+
+	p := reverseList2(head.Next)
+	head.Next.Next = head
+	head.Next = nil
+	return p
+}
