@@ -1,7 +1,6 @@
 package main
 
 import (
-	"container/list"
 	"strings"
 )
 
@@ -23,21 +22,20 @@ func isValid1(s string) bool {
 
 //第二种解法，借助一个栈
 func isValid2(s string) bool {
-	stack := list.New()
 	m := map[rune]rune{')': '(', ']': '[', '}': '{'}
-
+	var stack []rune
 	for _, v := range s {
 		if _, ok := m[v]; !ok {
-			stack.PushFront(v)
+			stack = append(stack, v)
 		} else {
-			e := stack.Front()
-			if e == nil || e.Value != m[v] {
+			if len(stack) == 0 || stack[len(stack)-1] != m[v] {
 				return false
 			}
-			stack.Remove(e)
+			stack = stack[:len(stack)-1]
 		}
 	}
-	return stack.Len() == 0
+
+	return len(stack) == 0
 }
 
 // 另一种写法

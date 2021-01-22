@@ -34,7 +34,7 @@
 
 * 实现一个单链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/SingleLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/singly_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/singly_linkedlist/singly_linked_list.go)】
 * 实现一个双向链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/DoubleLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/doubly_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/doubly_linkedlist/doubly_linkedlist.go)】
-* 实现一个循环链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/CircleLinkedList.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/circular_linkedlist/circular_linkedlist.go)】
+* 实现一个循环链表【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/linkedlist/CircleLinkedList.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/linkedlist/circular_linked_list.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/linkedlist/circular_linkedlist/circular_linkedlist.go)】
 * 常见 Leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
@@ -65,14 +65,14 @@
 |    20    | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/ValidParentheses.java)、[Python](https://github.com/roseduan/algo-learn/blob/48d5a3e9fe/python/stack/leetcode/valid_parentheses.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/valid_parentheses.go) |   简单   |
 |   155    |    [最小栈](https://leetcode-cn.com/problems/min-stack/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MinStack.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/min_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/min_stack.go) |   简单   |
 |   232    | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MyQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/queue_use_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/queue_using_stack.go) |   简单   |
-|   856    | [括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/) |                       Java、Python、Go                       |   中等   |
-|    84    | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/largest_rectangle_in_histogram.go) |   困难   |
+|   856    | [括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/score_of_parentheses.py)、Go |   中等   |
+|    84    | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/LargestRectangleInHistogram.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/largest_rectangle_in_histogram.go) |   困难   |
 | ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
 
 ## 队列
 
-* 使用数组实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/ArrayQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/array_queue/array_queue.go)】
-* 使用链表实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/LinkedQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/linked_queue/linked_queue.go)】
+* 使用数组实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/ArrayQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/array_queue.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/array_queue/array_queue.go)】
+* 使用链表实现一个队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/LinkedQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/linked_queue.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/linked_queue/linked_queue.go)】
 * 实现一个循环队列【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/CycleQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/circular_queue/circular_queue.go)】
 * 常见 Leetcode 练习题
 
@@ -80,7 +80,7 @@
 | :------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :------: |
 |   225    | [使用队列实现栈](https://leetcode-cn.com/problems/implement-stack-using-queues/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/StackUseQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/stack_use_queue.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/stack_using_queues.go) |   简单   |
 |   641    | [设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/MyCircularDeque.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/design_circular_deque.go) |   中等   |
-|   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | Java、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/design_circular_queue.go) |   中等   |
+|   622    | [设计循环队列](https://leetcode-cn.com/problems/design-circular-queue/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/CycleQueue.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/design_circular_queue.go) |   中等   |
 |   239    | [滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/queue/leetcode/SlidingWindowMaximum.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/queue/sliding_window_maximum.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/queue/leetcode/sliding_window_maximum.go) |   困难   |
 | ———————— |                        ——————————————                        |                        ——————————————                        | ———————— |
 
