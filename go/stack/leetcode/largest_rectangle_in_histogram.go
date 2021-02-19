@@ -50,18 +50,21 @@ func largestRectangleArea2(heights []int) int {
 func largestRectangleArea3(heights []int) int {
 	stack, res := []int{-1}, 0
 	for i, v := range heights {
-		for len(stack) > 1 && v < heights[stack[len(stack)-1]] {
-			j := stack[len(stack)-2]
-			k := stack[len(stack)-1]
+		for len(stack) > 1 && heights[stack[len(stack)-1]] > v {
+			n := stack[len(stack)-1]
 			stack = stack[:len(stack)-1]
-			res = int(math.Max(float64(res), float64(heights[k]*(i-j-1))))
+			res = int(math.Max(float64(res), float64(heights[n]*(i-stack[len(stack)-1]-1))))
 		}
 		stack = append(stack, i)
 	}
 
-	for i := 1; i < len(stack); i++ {
-		m := stack[len(stack)-1] + 1
-		res = int(math.Max(float64(res), float64(heights[stack[i]]*(m-stack[i-1]-1))))
+	if len(stack) > 1 {
+		k := stack[len(stack)-1]
+		for len(stack) > 1 {
+			n := stack[len(stack)-1]
+			stack = stack[:len(stack)-1]
+			res = int(math.Max(float64(res), float64(heights[n]*(k-stack[len(stack)-1]))))
+		}
 	}
 	return res
 }

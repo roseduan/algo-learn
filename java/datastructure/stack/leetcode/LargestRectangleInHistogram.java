@@ -1,6 +1,6 @@
 package datastructure.stack.leetcode;
 
-import java.util.Stack;
+import java.util.*;
 
 /**
  * @author roseduan
@@ -26,28 +26,24 @@ public class LargestRectangleInHistogram {
 
     /**
      * 使用一个栈
-     * 代码还有问题
      */
     public int largestRectangleArea2(int[] heights) {
-        Stack<Integer> stack = new Stack<>();
-        stack.add(-1);
+        Deque<Integer> stack = new ArrayDeque<>(Collections.singletonList(-1));
         int max = 0;
+
         for (int i = 0; i < heights.length; i++) {
-            while (stack.size() > 1 && heights[i] < heights[stack.peek()]) {
-                int j = stack.pop(), k = stack.peek();
-                if (k == -1) {
-                    k = j;
-                }
-                max = Math.max(max, Math.min(heights[k], heights[i]) * (i - k + 1));
+            while (stack.size() > 1 && heights[stack.peekLast()] > heights[i]) {
+                int n = stack.pollLast();
+                max = Math.max(max, heights[n] * (i - stack.peekLast() - 1));
             }
-            stack.push(i);
+            stack.add(i);
         }
 
         if (stack.size() > 1) {
-            Integer[] array = stack.toArray(new Integer[]{});
-            int first = array[1];
-            for (int i = 1; i < array.length; i++) {
-                max = Math.max(max, (array[i] - first + 1) * heights[array[i]]);
+            int k = stack.peekLast();
+            while (stack.size() > 1) {
+                int n = stack.pollLast();
+                max = Math.max(max, heights[n] * (k - stack.peekLast()));
             }
         }
         return max;
