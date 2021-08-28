@@ -21,8 +21,23 @@ func postHelper(node *TreeNode, res *[]int) {
 	*res = append(*res, node.Val)
 }
 
-//迭代
+// 递归-另一种写法
 func postorderTraversal2(root *TreeNode) []int {
+	var res []int
+	var helper func(node *TreeNode)
+	helper = func(node *TreeNode) {
+		if node == nil {
+			return
+		}
+		helper(node.Left)
+		helper(node.Right)
+		res = append(res, node.Val)
+	}
+	return res
+}
+
+//迭代
+func postorderTraversal3(root *TreeNode) []int {
 	var res []int
 	if root == nil {
 		return res
@@ -41,6 +56,30 @@ func postorderTraversal2(root *TreeNode) []int {
 		if node.Right != nil {
 			stack.PushFront(node.Right)
 		}
+	}
+	return res
+}
+
+// 迭代
+func postorderTraversal4(root *TreeNode) []int {
+	var res []int
+	if root == nil {
+		return res
+	}
+	stack := []*TreeNode{root}
+	for len(stack) > 0 {
+		node := stack[len(stack)-1]
+		stack = stack[:len(stack)-1]
+		res = append(res, node.Val)
+		if node.Left != nil {
+			stack = append(stack, node.Left)
+		}
+		if node.Right != nil {
+			stack = append(stack, node.Right)
+		}
+	}
+	for i, j := 0, len(res)-1; i < j; i, j = i+1, j-1 {
+		res[i], res[j] = res[j], res[i]
 	}
 	return res
 }

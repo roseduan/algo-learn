@@ -38,3 +38,13 @@ func TestQuickSort(t *testing.T) {
 	fmt.Println(data)
 
 }
+
+func TestQuickSortIteration(t *testing.T) {
+	data1 := []int{4}
+	QuickSortIteration(data1)
+	t.Log(data1)
+
+	data2 := []int{4, 4, 1}
+	QuickSortIteration(data2)
+	t.Log(data2)
+}

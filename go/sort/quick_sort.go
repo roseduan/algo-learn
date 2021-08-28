@@ -26,3 +26,18 @@ func partition(data []int, lo, hi int) int {
 	data[i], data[hi] = data[hi], data[i]
 	return i
 }
+
+// 快速排序-迭代实现
+func QuickSortIteration(data []int) {
+	stack := []int{0, len(data) - 1}
+
+	for len(stack) > 1 {
+		lo, hi := stack[len(stack)-2], stack[len(stack)-1]
+		stack = stack[:len(stack)-2]
+		if lo < hi {
+			mid := partition(data, lo, hi)
+			stack = append(stack, lo, mid-1)
+			stack = append(stack, mid+1, hi)
+		}
+	}
+}

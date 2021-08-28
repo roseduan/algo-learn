@@ -1,6 +1,10 @@
 # algo-learn
 学习数据结构与算法的代码示例，目前提供 Java、Python、Go 三种语言支持。编程是一门实践的手艺，多多练习，多多思考，把这里列举的所有算法，数据结构，以及对应的常见 leetcode 习题都自己手敲几遍，增强自己的编码基本功，写出高性能和高质量的代码！
 
+同时也给刷题的朋友一些指导，面对 Leetcode 上千道题目，可能会觉得手足无措，想刷题但是又不知道从哪里开始。
+
+这里其实记录的也是我自己的刷题过程，基本上都是一些 easy 和 medium 的题目，并且分类详细，你可以参考这个刷题顺序，然后有针对性的去刷。
+
 ## 数组
 
 * 实现一个动态扩容的数组【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/GenericArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/array.go)】
@@ -201,7 +205,7 @@
 
 ### 2. 字典树
 
-* 实现一个字典树
+* 实现一个字典树【Java、Python、Go】
 * 常见 leetcode 练习题
 
 |   题号   |                           题目名称                           |                           解题代码                           |   难度   |
