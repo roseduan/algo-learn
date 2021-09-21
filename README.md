@@ -1,9 +1,9 @@
 # algo-learn
-学习数据结构与算法的代码示例，目前提供 Java、Python、Go 三种语言支持。编程是一门实践的手艺，多多练习，多多思考，把这里列举的所有算法，数据结构，以及对应的常见 leetcode 习题都自己手敲几遍，增强自己的编码基本功，写出高性能和高质量的代码！
+学习数据结构与算法的代码示例，目前提供 Java、Python、Go、C++ 支持。编程是一门实践的手艺，多多练习，多多思考，把这里列举的所有算法，数据结构，以及对应的常见 leetcode 习题都自己手敲几遍，增强自己的编码基本功，写出高性能和高质量的代码！
 
 同时也给刷题的朋友一些指导，面对 Leetcode 上千道题目，可能会觉得手足无措，想刷题但是又不知道从哪里开始。
 
-这里其实记录的也是我自己的刷题过程，基本上都是一些 easy 和 medium 的题目，并且分类详细，你可以参考这个刷题顺序，然后有针对性的去刷。
+这里其实记录的也是我自己的刷题过程，基本上都是一些 easy 和 medium 的题目，并且分类详细，你可以参考这个刷题顺序，然后有针对性的去刷题。
 
 ## 数组
 
@@ -201,6 +201,7 @@
 |   589    | [N叉树的前序遍历](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreePreorderTraversal.java)、Python、Go |   简单   |
 |   590    | [N叉树的后序遍历](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreePostorderTraversal.java)、Python、Go |   简单   |
 |   429    | [N叉树的层次遍历](https://leetcode-cn.com/problems/n-ary-tree-level-order-traversal/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/NaryTreeLevelOrderTraversal.java)、Python、Go |   中等   |
+|   226    | [翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/) |                    Java、Python、Go、C++                     |   简单   |
 | ———————— |                        ——————————————                        |                       ————————————————                       | ———————— |
 
 ### 2. 字典树
