@@ -5,6 +5,8 @@
 
 这里其实记录的也是我自己的刷题过程，基本上都是一些 easy 和 medium 的题目，并且分类详细，你可以参考这个刷题顺序，然后有针对性的去刷题。
 
+**逐步完善中，欢迎补充更多题目，以及贡献代码！**
+
 ## 数组
 
 * 实现一个动态扩容的数组【[Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/array/GenericArray.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/array/array.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/array/array.go)】
@@ -69,7 +71,7 @@
 |    20    | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/ValidParentheses.java)、[Python](https://github.com/roseduan/algo-learn/blob/48d5a3e9fe/python/stack/leetcode/valid_parentheses.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/valid_parentheses.go) |   简单   |
 |   155    |    [最小栈](https://leetcode-cn.com/problems/min-stack/)     | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MinStack.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/min_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/min_stack.go) |   简单   |
 |   232    | [用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/MyQueue.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/queue_use_stack.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/queue_using_stack.go) |   简单   |
-|   496    | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) |                       Java、Python、Go                       |   简单   |
+|   496    | [下一个更大元素 I](https://leetcode-cn.com/problems/next-greater-element-i/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/NextGreaterElementI.java)、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/next_greater_element_i.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/next_greater_element_i.go) |   简单   |
 |   856    | [括号的分数](https://leetcode-cn.com/problems/score-of-parentheses/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/stack/leetcode/score_of_parentheses.py)、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/score_of_parentheses.go) |   中等   |
 |    84    | [柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/stack/leetcode/LargestRectangleInHistogram.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/stack/leetcode/largest_rectangle_in_histogram.go) |   困难   |
 | ———————— |                       ————————————————                       |                        ——————————————                        | ———————— |
