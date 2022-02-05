@@ -18,6 +18,22 @@ func searchRange1(nums []int, target int) []int {
 	return []int{j, k}
 }
 
+// 遍历查找，另一种写法
+func searchRange3(nums []int, target int) []int {
+	res := []int{-1, -1}
+	for i, v := range nums {
+		if v == target {
+			if i == 0 || nums[i-1] != target {
+				res[0] = i
+			}
+			if i == len(nums)-1 || nums[i+1] != target {
+				res[1] = i
+			}
+		}
+	}
+	return res
+}
+
 // 二分查找
 func searchRange2(nums []int, target int) []int {
 	lo, hi := 0, len(nums)-1
