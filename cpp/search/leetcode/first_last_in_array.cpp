@@ -24,8 +24,28 @@ public:
         return res;
     }
 
-    // 递归查找
-    vector<int> searchRange1(vector<int>& nums, int target) {
-
+    // 二分查找
+    vector<int> searchRange2(vector<int>& nums, int target) {
+        vector<int> res{-1, -1};
+        int low = 0, high = nums.size() - 1;
+        while(low <= high) {
+            int mid = low + (high - low) / 2;
+            if(nums[mid] < target) {
+                low = mid + 1;
+            } else if(nums[mid] > target) {
+                high = mid - 1;
+            } else {
+                if(nums[low] == target && nums[high] == target) {
+                    return {low, high};
+                }
+                if(nums[low] != target) {
+                    low++;
+                }
+                if(nums[high] != target) {
+                    high--;
+                }
+            }
+        }
+        return res;
     }
 };
