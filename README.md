@@ -254,15 +254,17 @@
 * 实现二分查找的标准代码模板【Java、Python、Go、C++】
 * 常见 leetcode 练习题：
 
-|   题号   |                           题目名称                           |     解题代码     |   难度   |
-| :------: | :----------------------------------------------------------: | :--------------: | :------: |
-|   278    | [第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | Java、Python、Go |   简单   |
-|   367    | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Java、Python、Go |   简单   |
-|    69    |    [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)     | Java、Python、Go |   简单   |
-|   162    | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | Java、Python、Go |   中等   |
-|    34    | [ 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Java、Python、Go |   中等   |
-|    33    | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Java、Python、Go |   中等   |
-| ———————— |                       ————————————————                       | ———————————————— | ———————— |
+|   题号   |                           题目名称                           |       解题代码        |   难度   |
+| :------: | :----------------------------------------------------------: | :-------------------: | :------: |
+|   278    | [第一个错误的版本](https://leetcode-cn.com/problems/first-bad-version/) | Java、Python、Go、C++ |   简单   |
+|   367    | [有效的完全平方数](https://leetcode-cn.com/problems/valid-perfect-square/) | Java、Python、Go、C++ |   简单   |
+|    69    |    [x 的平方根](https://leetcode-cn.com/problems/sqrtx/)     | Java、Python、Go、C++ |   简单   |
+|   162    | [寻找峰值](https://leetcode-cn.com/problems/find-peak-element/) | Java、Python、Go、C++ |   中等   |
+|    34    | [ 在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Java、Python、Go、C++ |   中等   |
+|    33    | [搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/) | Java、Python、Go、C++ |   中等   |
+|   153    | [搜索旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/) | Java、Python、Go、C++ |   中等   |
+|   540    | [有序数组中的单一元素](https://leetcode-cn.com/problems/single-element-in-a-sorted-array/) | Java、Python、Go、C++ |   中等   |
+| ———————— |                       ————————————————                       |   ————————————————    | ———————— |
 
 ### 3. 搜索
 
