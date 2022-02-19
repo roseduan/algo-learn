@@ -204,7 +204,7 @@
 |   230    | [二叉搜索树中第 K 小元素](https://leetcode-cn.com/problems/kth-smallest-element-in-a-bst/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/kth_smallest_element_bst.py)、Go |   中等   |
 |    98    | [验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/valid_bst.py)、Go |   中等   |
 |   101    | [对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/) | Java、[Python](https://github.com/roseduan/algo-learn/blob/master/python/tree/leetocde/symmetric_tree.py)、Go |   简单   |
-|   112    |    [路径总和](https://leetcode-cn.com/problems/path-sum/)    |                       Java、Python、Go                       |   简单   |
+|   112    |    [路径总和](https://leetcode-cn.com/problems/path-sum/)    |                    Java、Python、Go、C++                     |   简单   |
 |   108    | [有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/) | [Java](https://github.com/roseduan/algo-learn/blob/master/java/datastructure/tree/leetcode/SortedArrayToBst.java)、Python、[Go](https://github.com/roseduan/algo-learn/blob/master/go/tree/leetcode/sorted_array_to_bst.go) |   简单   |
 |   129    | [求根到叶子节点数字之和](https://leetcode-cn.com/problems/sum-root-to-leaf-numbers/) |                       Java、Python、Go                       |   中等   |
 |   116    | [填充每个节点的下一个右侧节点指针](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/) |                       Java、Python、Go                       |   中等   |
